@@ -1,0 +1,7 @@
+{
+  "name": "SahakarMitra",
+  "description": "AI Legal Assistant for Tamil Nadu Cooperative Societies (PACS), grounded in the Tamil Nadu Cooperative Societies Act.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

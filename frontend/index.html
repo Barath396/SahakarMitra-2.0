@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SahakarMitra — AI Legal Assistant for TN Cooperative Societies</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container" id="app-container">
+    <!-- Header -->
+    <header class="app-header" id="app-header">
+      <div class="header-content">
+        <div class="brand-badge">
+          <svg class="emblem-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          <div class="brand-text">
+            <h1 class="brand-title" id="brand-title">SahakarMitra <span class="brand-lang">சககாரமித்ரா</span></h1>
+            <p class="brand-subtitle" id="brand-subtitle">AI assistant for Tamil Nadu Cooperative Societies (PACS)</p>
+          </div>
+        </div>
+        <div class="header-status">
+          <span class="status-indicator online" id="status-indicator"></span>
+          <span class="status-text" id="status-text">TNSC Act 1983 Grounded</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Quick Prompts Pill Bar -->
+    <div class="quick-prompts-bar" id="quick-prompts-bar">
+      <span class="quick-prompts-label">Quick topics:</span>
+      <button class="prompt-chip" data-query="When must the annual general meeting be held and what business is conducted?">📅 AGM (Sec 32)</button>
+      <button class="prompt-chip" data-query="What is the term of office and procedure for board elections?">🗳️ Board Elections (Sec 33)</button>
+      <button class="prompt-chip" data-query="What are the rules regarding annual audit and panel of auditors?">📊 Audit Rules (Sec 80)</button>
+      <button class="prompt-chip" data-query="What is the procedure to expel a member acting against the society?">🚫 Expulsion (Sec 25)</button>
+      <button class="prompt-chip" data-query="When can the Registrar order winding up of a society?">⚖️ Winding Up (Sec 137)</button>
+      <button class="prompt-chip" data-query="How is charge created on crops and land for PACS loans?">🌾 PACS Loan Charge (Sec 41)</button>
+    </div>
+
+    <!-- Chat Messages Window -->
+    <main class="chat-window" id="chat-window">
+      <!-- Welcome Message -->
+      <div class="message-row ai-row" id="welcome-message">
+        <div class="message-avatar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2a4 4 0 0 0-4 4v2a4 4 0 0 0 8 0V6a4 4 0 0 0-4-4Z"/>
+            <path d="M18 10a6 6 0 0 1-12 0"/>
+            <path d="M12 16v6"/>
+            <path d="M8 22h8"/>
+          </svg>
+        </div>
+        <div class="message-bubble ai-bubble" id="welcome-bubble">
+          <p class="greeting-text"><strong>Vanakkam! Welcome to SahakarMitra.</strong></p>
+          <p>I am your specialized legal assistant for <strong>Tamil Nadu Cooperative Societies</strong>, grounded exclusively in the <strong>Tamil Nadu Cooperative Societies Act, 1983</strong>.</p>
+          <p class="instruction-note">Ask any question regarding PACS governance, board elections, audit obligations, surcharge proceedings, member expulsion, or crop loan charges in English or Tamil. You can also use the microphone button to test voice queries.</p>
+          <div class="tag-row">
+            <span class="citation-tag cited">Tamil Nadu Co-operative Societies Act, 1983</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Typing Indicator (Hidden by default) -->
+    <div class="typing-container hidden" id="typing-indicator">
+      <div class="typing-bubble">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="typing-text">Consulting TNSC Act sections...</span>
+      </div>
+    </div>
+
+    <!-- Bottom Input Controls -->
+    <footer class="input-container" id="input-container">
+      <form id="chat-form" class="chat-form" onsubmit="return false;">
+        <div class="input-wrapper">
+          <input
+            type="text"
+            id="question-input"
+            class="question-input"
+            placeholder="Type a question about TN Cooperative Societies Act (e.g. audit rules, elections)..."
+            autocomplete="off"
+          />
+          
+          <!-- Mic Record Button -->
+          <button type="button" id="mic-btn" class="icon-button mic-button" title="Record browser voice question">
+            <svg class="mic-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="22"/>
+            </svg>
+            <span class="recording-pulse"></span>
+          </button>
+
+          <!-- Language Selector for Voice Translation -->
+          <select id="voice-lang-select" class="lang-select" title="Target translation language for voice">
+            <option value="ta" selected>தமிழ் (Tamil)</option>
+            <option value="en">English</option>
+          </select>
+
+          <!-- Send Button -->
+          <button type="submit" id="send-btn" class="send-button" title="Send Question">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+            <span class="send-text">Send</span>
+          </button>
+        </div>
+      </form>
+      <div class="footer-caption">
+        <span>Grounded strictly in tnsc_act_sections.json • Hardware ESP32 Endpoint: <code>POST /voice?lang=ta</code></span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
