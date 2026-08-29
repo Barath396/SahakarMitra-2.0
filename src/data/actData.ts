@@ -9,1020 +9,2218 @@ export interface ActSection {
   chapter: string;
   text: string;
   preview?: string;
+  char_count?: number;
 }
 
 export const STATIC_ACT_SECTIONS: ActSection[] = [
   {
     "section": "1",
     "title": "Short title, extent and commencement",
-    "chapter": "Chapter I: Preliminary",
-    "text": "1. Short title, extent and commencement: (1) This Act may be called the Tamil Nadu Co-operative Societies Act, 1983. (2) It extends to the whole of the State of Tamil Nadu. (3) It shall come into force on such date as the Government may, by notification, appoint."
+    "chapter": "PRELIMINARY",
+    "text": "1. Short title, extent and commencement. __ (1) This Act may be called the Tamil Nadu Co-operative Societies Act, 1983.\n (2) It extends to the whole of the State of Tamil Nadu.\n (3) It shall come into force on such date as the Government may, by notification, appoint.",
+    "char_count": 268
   },
   {
     "section": "2",
     "title": "Definitions",
-    "chapter": "Chapter I: Preliminary",
-    "text": "2. Definitions: In this Act, unless the context otherwise requires: (a) 'agricultural producers society' means a registered society which has as its principal object the production, processing or marketing of agricultural produce; (b) 'board' means the board of directors or the governing body of a registered society to which the management of the affairs of the society is entrusted; (c) 'bye-laws' means the registered bye-laws for the time being in force and includes registered amendments of the bye-laws; (d) 'central society' means a registered society whose membership is confined to other registered societies; (e) 'financing bank' means a registered society whose principal object is to make loans to other registered societies; (f) 'member' means a person joining in the application for the registration of a society and a person admitted to membership after its registration in accordance with this Act, the rules and the bye-laws, and includes an associate member; (g) 'Primary Agricultural Cooperative Society (PACS)' means a cooperative society formed primarily for the purpose of providing short-term or medium-term agricultural credit to farmers and agricultural producers; (h) 'Registrar' means a person appointed to perform the functions of the Registrar of Co-operative Societies under this Act."
+    "chapter": "PRELIMINARY",
+    "text": "2. Definitions.__ In this Act, unless the context otherwise requires __\n (1) “administrator” means a Government servant or an employee of anybody corporate owned or controlled by the Government appointed under this Act in the place of the board;\n (1A) “agriculture” includes horticulture, floriculture, raising of crops (including plantation, tree crops and garden produce), seed farming and forestry and the word “agricultural” shall be construed accordingly;\n (2) “agricultural producers marketing society” means a registered society which has as its principal object the arranging for and the undertaking of purchase, storing, processing and marketing of the agricultural and other produce or products of its members or the undertaking of the distribution of commodities;\n (3) “agricultural service co-operative society” means a registered society, which has as its principal object the raising of funds to be lent to its members primarily for agricultural production, animal husbandry, pisciculture including fish catching, apiculture and sericulture;\n (4) “animal husbandry” includes cattle breeding, dairy farming, piggery and poultry farming;\n (5) “apex society” means a state level registered society whose area of operation extends to the whole of the State of Tamil Nadu;\n (6) “associate member” means a member who possesses only such privileges and rights of a member and who is subject only to such liabilities of a member as may be specified in this Act, the rules and the by-laws;\n (7) “board” means the board of directors or the governing body of a registered society;\n (8) “by-laws” means the registered by-laws for the time being in force;\n (9) “central society” means a registered society whose area of operation is confined to a part of the State of Tamil Nadu;\n (10) “consumer society” means a registered society which has as its principal object the supply of the requirements of its members for consumption;\n (11) “co-operative union” means a registered society which has as its principal object co-operative education, propaganda, training and mobilisation of savings;\n (12) “co-operative year” means the period commencing on the first day of April of any year and ending with the 31st day of March of the succeeding year;\n (13) “credit society” means a registered society which has as its principal object the raising of funds to be lent to its members;\n (14) “financing bank” means a registered society which has as its principal object the lending of money to other registered societies;\n (15) “Government” means the State Government;\n (16) “member” means a person joining in the application for registration and a person admitted to membership;\n (17) “milk producers society” means a registered society for purchase, storing, processing and marketing of milk;\n (18) “office-bearer” means a president or vice-president of the board;\n (19) “officer” includes a president, vice-president, managing director, secretary, assistant secretary, member of board;\n (21) “primary society” means a registered society, but does not include an apex society or central society;\n (22) “registered society” means a co-operative society registered under this Act;\n (23) “Registrar” means an officer of the Government appointed to perform the duties of a Registrar of Co-operative Societies;\n (24) “rules” means rules made under this Act;\n (25) “scheduled co-operative society” means any registered society specified in the Schedule to this Act;\n (29) “Tribunal” means a Tribunal constituted under section 151.",
+    "char_count": 8294
+  },
+  {
+    "section": "3",
+    "title": "The Registrar",
+    "chapter": "REGISTRATION",
+    "text": "3. The Registrar.__ The Government may appoint any officer of the Government to be Registrar of co-operative societies for the State of Tamil Nadu or any portion of it or for any class or classes or category or categories of registered societies and may, by general or special order confer on any other officer of the Government or any officer of anybody corporate owned or controlled by the Government all or any of the powers of a Registrar under this Act.",
+    "char_count": 472
   },
   {
     "section": "4",
     "title": "Societies which may be registered",
-    "chapter": "Chapter II: Registration of Societies",
-    "text": "4. Societies which may be registered: Subject to the provisions of this Act, a society which has as its object the promotion of the economic interests or general welfare of its members or of the public in accordance with co-operative principles, or a society established with the object of facilitating the operations of such a society, may be registered under this Act."
+    "chapter": "REGISTRATION",
+    "text": "4. Societies which may be registered.__ Subject to the provisions of this Act, a society which has as its object the promotion of the economic interest or general welfare of its members in accordance with co-operative principles, or a society established with the object of facilitating the operations of such a society, may be registered under this Act with limited or unlimited liability:\n Provided that the liability of –\n (i) a society of which a registered society is a member; and\n (ii) an agricultural service co-operative society registered after the commencement of this Act, shall be limited.",
+    "char_count": 612
+  },
+  {
+    "section": "5",
+    "title": "Change of liability",
+    "chapter": "REGISTRATION",
+    "text": "5. Change of liability.__ (1) Subject to any rules made in this behalf, any registered society may, at a meeting of its general body specially called for the purpose of which at least fifteen clear days' notice shall be given to its members, resolve to change its liability from unlimited to limited and to amend its by-laws for this purpose.\n (2) When a resolution is passed, a copy shall be sent to all members and creditors. Members or creditors may within two months intimate intention to withdraw share/demand return of dues.\n (4) If the Registrar is satisfied that repayment has been made, he may register the amendment.",
+    "char_count": 622
+  },
+  {
+    "section": "6",
+    "title": "Conditions of registration",
+    "chapter": "REGISTRATION",
+    "text": "6. Conditions of registration.__ (1) No society, other than a society of which a member is a registered society, shall be registered under this Act which does not consist of at least twenty-five independent persons qualified to be admitted as members under this Act and residing or owning immovable property in the area of operation of the society.\n Explanation I.- Independent person means a person who is not dependent upon another person joining in the application for his means of livelihood and does not belong to the family of any other person joining.\n (2) The word “limited” shall be the last word in the name of every society with limited liability registered under this Act.",
+    "char_count": 686
+  },
+  {
+    "section": "7",
+    "title": "Power of Registrar to decide certain questions",
+    "chapter": "REGISTRATION",
+    "text": "7. Power of Registrar to decide certain questions.__ When any question arises whether for the purposes of this Act any person is an independent person or is a resident of, or owns immovable property in the area of operation of a society, the question shall be decided by the Registrar within such period as may be prescribed.",
+    "char_count": 328
+  },
+  {
+    "section": "8",
+    "title": "Application for registration",
+    "chapter": "REGISTRATION",
+    "text": "8. Application for registration.-- (1) An application for registration shall be made to the Registrar in the prescribed form.\n (2) The application shall be signed by at least twenty-five qualified persons (or by authorized representatives where a member is a registered society).\n (3) The application shall be accompanied by a copy of the proposed by-laws of the society and the chief promoter shall furnish required information.",
+    "char_count": 427
   },
   {
     "section": "9",
     "title": "Registration",
-    "chapter": "Chapter II: Registration of Societies",
-    "text": "9. Registration: (1) If the Registrar is satisfied that a society has complied with the provisions of this Act and the rules, and that its proposed bye-laws are not contrary to this Act or the rules, and that the proposed society has reasonable prospects of functioning successfully, he may register the society and its bye-laws. (2) If the Registrar refuses to register a society and its bye-laws, he shall communicate the order of refusal together with the reasons therefor to the applicants."
+    "chapter": "REGISTRATION",
+    "text": "9. Registration.__ (1) If the Registrar is satisfied that the application complies with the Act and rules, objects are in accordance with Section 4, the society has sound business prospects, does not overlap area of another society of same category, and by-laws are valid, he may within 120 days register the society and by-laws.\n (2) Refusal must be communicated within 120 days with reasons.\n (3) Deemed registration applies on the 120th day if no refusal order is communicated.",
+    "char_count": 476
+  },
+  {
+    "section": "10",
+    "title": "Evidence of registration",
+    "chapter": "REGISTRATION",
+    "text": "10. Evidence of registration.__ Where a society is registered or deemed to have been registered, the Registrar shall issue a certificate of registration signed by him, which shall be conclusive evidence that the society is duly registered unless registration is cancelled.",
+    "char_count": 271
   },
   {
     "section": "11",
-    "title": "Amendment of bye-laws of registered society",
-    "chapter": "Chapter II: Registration of Societies",
-    "text": "11. Amendment of the bye-laws of a registered society: (1) No amendment of any bye-law of a registered society shall be valid until such amendment has been registered under this Act. (2) An application for the registration of an amendment of the bye-laws of a registered society shall be made to the Registrar in the prescribed manner within the prescribed period. (3) If the Registrar is satisfied that the amendment is not contrary to this Act or the rules, he may register the amendment."
+    "title": "Amendment of the by-laws of registered society",
+    "chapter": "REGISTRATION",
+    "text": "11. Amendment of the by-laws of registered society.__ (1) No amendment of any by-law of a registered society shall be valid until registered under this Act.\n (2) Application shall be made to the Registrar in prescribed manner.\n (3) Registrar may register the amendment if satisfied it complies with the Act, rules, and cooperative principles.\n (5) Certified copy of amendment is conclusive evidence of due registration.\n (8) Takes effect from date specified, or from date of registration.",
+    "char_count": 487
+  },
+  {
+    "section": "12",
+    "title": "Power to direct amendment of by-laws",
+    "chapter": "REGISTRATION",
+    "text": "12. Power to direct amendment of by-laws.__ (1) Where the Registrar is satisfied that for altering area of operation or improving services an amendment of by-laws is necessary, he may, after consulting the financing bank, call upon the society by notice to show cause why amendment should not be made.\n (2) If society fails to make amendment, Registrar may register the amendment after giving opportunity to make representation.",
+    "char_count": 427
+  },
+  {
+    "section": "13",
+    "title": "Division and amalgamation of societies",
+    "chapter": "REGISTRATION",
+    "text": "13. Division and amalgamation of societies.__ (1) Any registered society may, at a special general meeting with 15 clear days' notice, resolve by 2/3rd majority to divide into two or more societies or amalgamate with other societies.\n (2) Members and creditors have 1 month to give notice to withdraw shares or demand repayment.\n (3) Assets and liabilities vest in the new or amalgamated societies upon registration.",
+    "char_count": 412
+  },
+  {
+    "section": "14",
+    "title": "Power to direct amalgamation in public interest",
+    "chapter": "REGISTRATION",
+    "text": "14. Power to direct amalgamation in public interest, etc.__ (1) Where the Registrar is satisfied in the public interest or interest of cooperative movement or proper management that two or more societies should amalgamate, he may by order in Gazette provide for amalgamation into a single society.\n (2) Draft order must be sent to societies, members, and creditors for objections/suggestions with at least 2 months' time.",
+    "char_count": 422
+  },
+  {
+    "section": "15",
+    "title": "Transfer of assets and liabilities among registered societies",
+    "chapter": "REGISTRATION",
+    "text": "15. Transfer of assets and liabilities among registered societies.__ Two or more registered societies may, at general body meetings with 15 days' notice, resolve to transfer assets and liabilities among themselves with Registrar's approval.",
+    "char_count": 243
+  },
+  {
+    "section": "16",
+    "title": "Classification and categorisation",
+    "chapter": "REGISTRATION",
+    "text": "16. Classification and categorisation.__ The Registrar shall, in accordance with the rules, classify and categorise registered societies with reference to objects, area of operation, membership, or other specified matters.",
+    "char_count": 222
+  },
+  {
+    "section": "17",
+    "title": "Conversion",
+    "chapter": "REGISTRATION",
+    "text": "17. Conversion.__ Any registered society may, subject to rules, resolve to convert itself into a registered society of a class or category different from the one to which it belongs.",
+    "char_count": 180
+  },
+  {
+    "section": "18",
+    "title": "Joint business",
+    "chapter": "REGISTRATION",
+    "text": "18. Joint business.__ Any registered society may, with previous approval of the Registrar and by resolution at general meeting, enter into agreement with another society or Government undertaking for carrying on jointly any specific business.",
+    "char_count": 245
+  },
+  {
+    "section": "19",
+    "title": "Co-operative Unions",
+    "chapter": "REGISTRATION",
+    "text": "19. Co-operative Unions.__ There shall be a co-operative union for Tamil Nadu called 'Tamil Nadu Co-operative Union Limited', and district co-operative unions as deemed necessary.",
+    "char_count": 178
+  },
+  {
+    "section": "20",
+    "title": "Registered societies to be members of co-operative unions",
+    "chapter": "REGISTRATION",
+    "text": "20. Registered societies to be members of co-operative unions.__ Every registered society is deemed to be a member of the District or State Co-operative Union and pays annual subscription.\n 20-A. Co-operative education and training: Co-operative unions undertake member education and training with dedicated funds in annual budget.",
+    "char_count": 331
   },
   {
     "section": "21",
-    "title": "Qualifications for admission to membership",
-    "chapter": "Chapter III: Members and their Rights and Liabilities",
-    "text": "21. Qualifications for admission to membership: (1) Subject to the provisions of Section 23, no person shall be admitted as a member of a registered society unless: (a) he is an individual competent to contract under Section 11 of the Indian Contract Act, 1872; (b) he is a resident in the area of operation of the society or is in possession of land situated within such area; (c) he fulfills such other qualifications as may be specified in the rules or the bye-laws of the society. Any registered society, the Government, or any financing bank may also be admitted as a member."
+    "title": "Qualifications for membership of society",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "21. Qualifications for membership of society.__ (1) (a) Individuals competent to contract under Section 11 of Contract Act, registered societies, Government, or approved bodies are eligible for membership.\n (b) No individual is eligible for membership in financing bank or apex society except as associate member.\n (2) Board or general body admits eligible individuals upon application. Deemed admission occurs on the 60th day if decision is not communicated.\n (3) Members must pay prescribed share capital before exercising membership rights.",
+    "char_count": 546
   },
   {
     "section": "22",
-    "title": "Associate members",
-    "chapter": "Chapter III: Members and their Rights and Liabilities",
-    "text": "22. Associate members: (1) Notwithstanding anything contained in Section 21, a registered society may admit any individual or institution as an associate member. (2) An associate member shall not be entitled to any share in any form in the assets or profits of the registered society, nor shall he be entitled to vote at any meeting of the registered society or to contest elections to the board."
+    "title": "Admission of associate members",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "22. Admission of associate members.__ Societies may admit associate members as prescribed. Associate members have no right to vote in general meetings or elections, nor hold office or claim share in profits.",
+    "char_count": 204
   },
   {
     "section": "23",
-    "title": "Disqualifications for membership",
-    "chapter": "Chapter III: Members and their Rights and Liabilities",
-    "text": "23. Disqualifications for membership: (1) No person shall be eligible for admission as, or for continuing as, a member of a registered society if: (a) he has been applied to be adjudicated or is an undischarged insolvent; (b) he has been sentenced for any offence involving moral turpitude, such sentence not having been reversed or the offence pardoned, unless a period of five years has elapsed from the date of expiration of the sentence; (c) he is a paid employee of the society; (d) he is engaged in a business of the same kind carried on by the society."
+    "title": "Disqualifications for membership of society",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "23. Disqualifications for membership of society.__ (1) Persons ineligible: undischarged insolvents, persons convicted of moral turpitude with 1+ year imprisonment (within 1 year of release), paid employees of the society, persons expelled within 3 years, persons engaged in competing business, or persons lacking object qualifications.\n (2) A member ceases to be a member on insolvency, conviction, paid employment, expulsion, or absence from 3 consecutive general meetings.\n (4) Registrar decides all disqualification questions.",
+    "char_count": 532
   },
   {
     "section": "24",
-    "title": "Right of members to vote",
-    "chapter": "Chapter III: Members and their Rights and Liabilities",
-    "text": "24. Right of members to vote: (1) Every member of a registered society shall have one vote in the affairs of the society. In the case of equality of votes, the chairman shall have a second or casting vote. (2) No member shall vote by proxy, except where representatives of affiliated societies or delegates are authorized under the rules or bye-laws. (3) A member who is in default to the society in respect of any loan or transaction shall not be entitled to exercise the right to vote."
+    "title": "Right of members to services by registered society and redress",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "24. Right of members to services by registered society and application for redress.__ (1) Every member is entitled to services under by-laws on application.\n (2) If service is refused or delayed, member may apply to Registrar for redress.\n (4) If refusal is unreasonable or discriminatory, Registrar may order board to render the service.",
+    "char_count": 344
   },
   {
     "section": "25",
-    "title": "Expulsion of members",
-    "chapter": "Chapter III: Members and their Rights and Liabilities",
-    "text": "25. Expulsion of members: (1) Any member of a registered society who has acted adversely to the interests of the society may be expelled upon a resolution passed by not less than two-thirds of the members present and voting at a general meeting called for the purpose. (2) No resolution under subsection (1) shall be valid unless the member concerned has been given a reasonable opportunity of showing cause against the proposed expulsion. (3) The resolution for expulsion shall not take effect until it is approved by the Registrar. On approval by the Registrar, the person ceases to be a member and cannot be re-admitted within a period of one year except with the prior approval of the Registrar."
+    "title": "Expulsion",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "25. Expulsion.__ (1) A member acting adversely to society interests may be expelled by 2/3rd majority resolution of general body at special meeting.\n (2) Member must be given opportunity to make representation and expulsion requires approval of the Registrar.",
+    "char_count": 257
+  },
+  {
+    "section": "26",
+    "title": "Votes of members",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "26. Votes of members.__ (1) (a) One member, one vote principle.\n (b) Decisions by majority; president has casting vote in case of equality.\n (c) Every member has the right to vote in board elections. No proxy voting allowed.\n (4) Nominees of Government or financing bank have no right to vote or contest in board elections.",
+    "char_count": 326
+  },
+  {
+    "section": "27",
+    "title": "Inspection of accounts by member",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "27. Inspection of accounts by member.__ Any member may during office hours inspect and have access to books, information, and accounts relating to their transactions with the society on payment of prescribed fee.",
+    "char_count": 213
   },
   {
     "section": "28",
-    "title": "Liability of past member and estate of deceased member",
-    "chapter": "Chapter III: Members and their Rights and Liabilities",
-    "text": "28. Liability of past member and estate of deceased member: (1) The liability of a past member for the debts of a registered society as they existed on the date on which he ceased to be a member shall continue for a period of two years from such date. (2) The estate of a deceased member shall be liable for the debts of the society as they existed on the date of his death for a period of two years from the date of death."
+    "title": "Restrictions on transfer of share or interest",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "28. Restrictions on transfer of share or interest.__ Transfer of share or interest is valid only if held for at least one year and made to another member with board approval.",
+    "char_count": 172
+  },
+  {
+    "section": "29",
+    "title": "Restrictions on withdrawal of share or interest",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "29. Restriction on withdrawal of share or interest by members.__ Share capital is not refundable unless held for at least two years, except on death, expulsion, removal, or permanent shifting of residence.",
+    "char_count": 204
+  },
+  {
+    "section": "30",
+    "title": "Transfer of share or interest on death of member",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "30. Transfer of share or interest on death of member.__ On death of a member, society transfers share/interest to registered nominee, heir, or legal representative, or pays the value thereof according to rules.",
+    "char_count": 210
+  },
+  {
+    "section": "31",
+    "title": "Liability of past member or estate of deceased member",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "31. Liability of past member or estate of deceased member.__ Past member or estate of deceased member remains liable for debts existing on date of cessation/death for a period of two years (extended during winding-up).",
+    "char_count": 217
   },
   {
     "section": "32",
-    "title": "General meetings and special general meetings",
-    "chapter": "Chapter IV: Management of Registered Societies",
-    "text": "32. General meetings: (1) The board of a registered society shall convene an annual general meeting of its members once in every financial year within a period of six months after the close of that year. (2) The business of the general meeting shall include: (a) approval of the budget and operational program for the upcoming year; (b) review of the audit report and annual report of the board; (c) disposal of net profits; (d) examination of the list of defaulters and overdue debts; (e) consideration of any amendment to the bye-laws. (3) A special general meeting may be convened at any time by the board, or shall be convened within one month upon a requisition in writing by not less than one-fifth of the total number of members or upon a requisition from the Registrar or financing bank."
+    "title": "General meetings (AGM & SGM)",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "32. General meetings.__ (1) Ultimate authority vests in the general body.\n (2) Annual General Meeting (AGM) must be held within six months from the close of the financial year for budget approval, audit report consideration, net profit disposal, and activity appraisal.\n (3) Special General Meeting (SGM) can be called by board within 1 month upon requisition by 1/4th members, financing bank, or Registrar.\n (4) If board fails, Registrar may call the meeting himself.",
+    "char_count": 461
   },
   {
     "section": "33",
-    "title": "Constitution and management of board, election of members of board",
-    "chapter": "Chapter IV: Management of Registered Societies",
-    "text": "33. Constitution and management of board, election of members of board: (1) The management of every registered society shall vest in a board constituted in accordance with this Act, the rules and the bye-laws. (2) The term of office of the elected members of the board shall be five years from the date of their election. (3) The superintendence, direction, and control of the preparation of electoral rolls and the conduct of all elections to a cooperative society shall vest in the Tamil Nadu State Cooperative Societies Election Commission. (4) Reservation of seats: Seats on the board shall be reserved for Scheduled Castes, Scheduled Tribes, and Women as specified in the rules."
+    "title": "Constitution and meetings of the board",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "33. Constitution and meetings of the board.__ (1) Management vests in the board. 30% reservation for women and 18% reservation for SC/ST. Board may co-opt up to 2 experts and include functional directors (up to 9).\n (3) Size of board: 7 to 21 members for primary societies; 11 to 21 for apex/central societies.\n (10) Term of office for elected board members is five years.\n (11) Elections conducted by Tamil Nadu State Co-operative Societies Election Commission before expiry of term.\n (13) Ordinary board meetings must be held at least once every three months with 3 clear days' notice.",
+    "char_count": 591
+  },
+  {
+    "section": "33-A",
+    "title": "Tamil Nadu State Co-operative Societies Election Commission",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "33-A. Tamil Nadu State Co-operative Societies Election Commission.__ Superintendence, direction, and control of electoral rolls and election conduct for cooperative societies vests in the Election Commission headed by Commissioner (rank of Secretary to Government, 5-year term up to age 65).",
+    "char_count": 289
   },
   {
     "section": "34",
     "title": "Disqualifications for membership of board",
-    "chapter": "Chapter IV: Management of Registered Societies",
-    "text": "34. Disqualifications for membership of board: (1) A person shall be disqualified for being elected or nominated as, and for being, a member of the board if: (a) he is a defaulter to the society or to any other registered society in respect of any loan or advance taken by him; (b) he is an applicant to be adjudicated an insolvent or an undischarged insolvent; (c) he has been convicted of any offence involving moral turpitude; (d) he holds any office of profit or is a paid employee of the society; (e) he is interested directly or indirectly in any contract made with the society; (f) he has been removed or disqualified under Section 36."
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "34. Disqualifications for membership of board.__ (1) Ineligible if: loan defaulter exceeding 3 months, facing recovery proceedings under Section 118/120/144, past employee/auditor within 2 years, convicted of offences, removed under Section 36, or illiterate (exempt for visually/physically impaired).\n (2) Ceases office if: incurs disqualification, ceases membership, or absents from 4 consecutive board meetings or 3 months continuously.\n (4) Cannot be board member in more than 5 societies or more than 2 apex/central societies, or president of more than 3 societies.",
+    "char_count": 569
+  },
+  {
+    "section": "35",
+    "title": "Members of the board not to hold certain financial interests",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "35. Members of the board not to hold certain financial interests.__ Board members must divest from personal contracts, sales, or business transactions with the society within 3 months.",
+    "char_count": 182
   },
   {
     "section": "36",
-    "title": "Removal of members of board",
-    "chapter": "Chapter IV: Management of Registered Societies",
-    "text": "36. Removal of members of board: (1) If in the opinion of the Registrar, any member of the board of a registered society is guilty of persistent negligence, default in the discharge of duties, or acts in a manner prejudicial to the interests of the society, the Registrar may, after giving the member a reasonable opportunity of showing cause, by order remove such member from the board. (2) Any person removed under subsection (1) shall be disqualified from holding any office in any registered society for a period of five years."
+    "title": "Disqualification and removal by Registrar",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "36. Disqualification and removal.__ Where audit, inquiry, or inspection discloses misappropriation, breach of trust, gross negligence, or mismanagement, Registrar may permanently disqualify and remove the board member after giving opportunity to make representation.",
+    "char_count": 266
+  },
+  {
+    "section": "36-A",
+    "title": "Qualifications and disqualifications for co-option of members",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "36-A. Qualifications and disqualifications for co-option of members to board.__ Same qualifications and disqualifications applying to elected directors apply to co-opted directors.",
+    "char_count": 180
+  },
+  {
+    "section": "37",
+    "title": "Address of Societies",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "37. Address of Societies.__ Every registered society shall have a registered address and send notice of change within 30 days.",
+    "char_count": 126
+  },
+  {
+    "section": "38",
+    "title": "Copy of Act, rules and by-laws to be open to inspection",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "38. Copy of Act, rules and by-laws to be open to inspection.__ Free inspection of Act, rules, by-laws, and member register at registered address during reasonable hours.",
+    "char_count": 169
+  },
+  {
+    "section": "39",
+    "title": "Societies to be bodies corporate",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "39. Societies to be bodies corporate.__ Registered societies are corporate bodies with perpetual succession, common seal, power to hold property, sue and be sued.",
+    "char_count": 160
   },
   {
     "section": "40",
-    "title": "First charge of registered society on certain movable assets",
-    "chapter": "Chapter V: Privileges of Registered Societies",
-    "text": "40. First charge of registered society on certain movable assets: (1) Notwithstanding anything contained in any law for the time being in force, but subject to any prior claim of the Government in respect of land revenue, any debt or outstanding demand owing to a registered society by any member or past member shall be a first charge: (a) upon crops or other agricultural produce raised in whole or in part with the loan taken from the society; (b) upon any cattle, agricultural implements or raw materials supplied to or purchased by such member with the funds from the society."
+    "title": "First charge of society on crops and produce",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "40. First charge of society.__ (1) Society has first charge for dues upon crops, agricultural produce, cattle, implements, machinery, raw materials, or mortgaged property of debtor member.\n (2) Property under charge cannot be sold or transferred without society's written consent; unauthorized transfers are null and void.",
+    "char_count": 326
   },
   {
     "section": "41",
-    "title": "Charge on immovable property of members borrowing loans from Primary Agricultural Cooperative Societies",
-    "chapter": "Chapter V: Privileges of Registered Societies",
-    "text": "41. Charge on immovable property of members: (1) A member who applies for a loan or financial assistance from a Primary Agricultural Cooperative Society (PACS) or other registered society shall execute a declaration in the prescribed form creating a charge on the immovable property specified therein in favor of the society as security for the repayment of the loan and interest. (2) Any charge created under subsection (1) shall take priority over any subsequent transfer, mortgage, charge or lease of the property by the member."
+    "title": "Charge of immovable property of borrowing members (GePNIC/Sub-Registrar)",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "41. Charge of immovable property of members borrowing loans.__ Member creates written charge over land/immovable property for loans. Declaration is registered with Sub-Registrar and operates as registered encumbrance.",
+    "char_count": 218
   },
   {
     "section": "42",
-    "title": "Deduction from salary or wages",
-    "chapter": "Chapter V: Privileges of Registered Societies",
-    "text": "42. Deduction from salary or wages: (1) A member of a registered society may execute an agreement in favor of the society providing that his employer shall be competent to deduct from the salary or wages payable to him by the employer such amount as may be specified in the agreement and to pay the amount so deducted to the society in satisfaction of any debt or other demand owing by the member to the society. (2) On receipt of a requisition from the society, the employer shall make the deduction in accordance with the agreement and remit the amount to the society within seven days."
+    "title": "Charge and set off in respect of shares or interest of member",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "42. Charge and set off in respect of shares or interest of member.__ Society has statutory charge and right of set-off on shares, deposits, dividends, and bonuses against debts due from member.",
+    "char_count": 194
+  },
+  {
+    "section": "43",
+    "title": "Financing bank not to have claim on certain funds",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "43. Financing bank not to have a claim on certain sums of money.__ Financing banks cannot set off reserve fund, provident fund (Sec 78), or gratuity fund (Sec 79) against society debts.",
+    "char_count": 184
+  },
+  {
+    "section": "44",
+    "title": "Shares, interest, thrift deposit not liable to attachment",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "44. Shares, interest, etc., not liable to attachment.__ Member share capital, thrift deposit, PF, and gratuity funds are exempt from court attachment or insolvency receiver claims.",
+    "char_count": 178
+  },
+  {
+    "section": "45",
+    "title": "Reserve fund and bad debt reserve not liable to attachment",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "45. Reserve fund and bad debt reserve not liable to attachment.__ Reserve fund and bad debt reserve invested under Section 68 are exempt from court attachment.",
+    "char_count": 157
+  },
+  {
+    "section": "46",
+    "title": "Register of members as prima facie evidence",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "46. Register of members.__ Member register is prima facie evidence of dates of admission and cessation of membership.",
+    "char_count": 118
+  },
+  {
+    "section": "47",
+    "title": "Proof of entries in societies’ books",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "47. Proof of entries in societies’ books.__ Certified copies of entries in regularly kept books are admissible in court as prima facie evidence.",
+    "char_count": 144
+  },
+  {
+    "section": "48",
+    "title": "Deduction from salary, wages or gratuity for society dues",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "48. Deduction from salary, wages or gratuity.__ Employers/disbursing officers must deduct agreed loan instalments from salary or gratuity and remit to society within 14 days. Failure punishable with fine.",
+    "char_count": 204
+  },
+  {
+    "section": "49",
+    "title": "Exemption from compulsory registration of share/debenture instruments",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "49. Exemption from compulsory registration of instruments relating to shares and debentures.__ Shares and debentures of registered societies are exempt from compulsory registration under Registration Act.",
+    "char_count": 204
+  },
+  {
+    "section": "50",
+    "title": "Recovery of moneys due as arrears of land revenue",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "50. Recovery of moneys due to registered society as arrears of land revenue.__ Society dues recoverable under Revenue Recovery Act, 1864; Registrar has powers of District Collector.",
+    "char_count": 178
+  },
+  {
+    "section": "51",
+    "title": "Powers to exempt from stamp duty and registration fee",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "51. Powers to exempt from stamp duty and registration fee.__ Government may remit stamp duty and registration fees on instruments executed by or on behalf of cooperative societies.",
+    "char_count": 178
+  },
+  {
+    "section": "52",
+    "title": "Investment by Government in registered societies",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "52. Investment by Government in registered societies.__ Government may subscribe directly to share capital of registered societies.",
+    "char_count": 131
+  },
+  {
+    "section": "53",
+    "title": "Provision of funds by Government to apex society",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "53. Provision of funds by Government to apex society.__ Government provides funds to apex societies to purchase shares in other registered societies.",
+    "char_count": 147
+  },
+  {
+    "section": "54",
+    "title": "Partnership of Government with apex society (Principal Fund)",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "54. Partnership of Government with apex society.__ Apex societies establish 'Principal State Partnership Fund' to invest in central/primary societies.",
+    "char_count": 150
+  },
+  {
+    "section": "55",
+    "title": "Subsidiary State Partnership Fund",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "55. Subsidiary State Partnership Fund.__ Central societies establish 'Subsidiary State Partnership Fund' from apex funds to buy shares in primary societies.",
+    "char_count": 154
+  },
+  {
+    "section": "64",
+    "title": "Other forms of State aid to registered societies",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "64. Other forms of State aid to registered societies.__ Government may grant loans, advances, guarantees on debentures, deposits, or share capital, and provide subsidies.",
+    "char_count": 169
+  },
+  {
+    "section": "66",
+    "title": "Restrictions on loans",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "66. Restrictions on loans.__ (1) Loans only to members (or other societies/employees with sanction).\n (2) Loans permitted on security of deposits, jewel/gold loans, and bill discounting.",
+    "char_count": 182
+  },
+  {
+    "section": "67",
+    "title": "Restrictions on borrowings",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "67. Restrictions on borrowings.__ Societies receive deposits and loans only within limits specified in by-laws and rules.",
+    "char_count": 121
+  },
+  {
+    "section": "68",
+    "title": "Investment of funds",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "68. Investment of funds.__ Funds may be invested in financing banks, cooperative banks, government trust securities under Indian Trusts Act, or approved modes.",
+    "char_count": 158
   },
   {
     "section": "69",
-    "title": "Restriction on loans",
-    "chapter": "Chapter VII: Property and Funds of Registered Societies",
-    "text": "69. Restriction on loans: (1) A registered society shall not make a loan to any person other than a member: Provided that with the general or special sanction of the Registrar, a registered society may make loans to another registered society. (2) Save with the permission of the Registrar, a registered society shall not lend money on the security of movable property other than agricultural produce or gold ornaments."
+    "title": "Funds not to be divided among members",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "69. Funds not to be divided among members.__ No division of funds except net profits declared by Registrar. Honorarium to board capped at 5% of current profit.",
+    "char_count": 159
+  },
+  {
+    "section": "70",
+    "title": "Expenditure from funds",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "70. Expenditure from funds.__ Society funds can only be spent for management/business purposes or approved advertisements.",
+    "char_count": 121
+  },
+  {
+    "section": "71",
+    "title": "Properties not to be misused",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "71. Properties not to be misused.__ Movable and immovable property of society must be used strictly in accordance with Act, rules, and by-laws.",
+    "char_count": 142
   },
   {
     "section": "72",
-    "title": "Disposal of net profits and reserve fund",
-    "chapter": "Chapter VII: Property and Funds of Registered Societies",
-    "text": "72. Disposal of net profits: (1) A registered society shall, out of its net profits in any financial year: (a) transfer not less than twenty-five percent to the Reserve Fund; (b) credit three percent to the Cooperative Education Fund; (c) credit such portion to the Agricultural Credit Stabilization Fund as may be prescribed for Primary Agricultural Credit Societies. (2) The balance of the net profits may be utilized for payment of dividend on shares to members, bonus to members, and allocations to common good funds in accordance with the rules and bye-laws."
+    "title": "Disposal of net profits (Statutory Allocations)",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "72. Disposal of net profits.__ Statutory allocations from net profit:\n (1) 3% to Co-operative Research & Dev Fund; 2% to Co-operative Education Fund;\n (2) Balance appropriated: Reserve Fund (minimum 20%), Agricultural Credit Stabilization Fund (15% for PACS), Board Honorarium (max 10%), Dividend to members (max 14%), Employee bonus, Common Good Fund (max 10%), remainder to Reserve Fund.",
+    "char_count": 393
   },
   {
     "section": "73",
-    "title": "Appointment of paid officers and servants",
-    "chapter": "Chapter VIII: Paid Officers and Servants of Society",
-    "text": "73. Appointment of paid officers and servants: (1) Subject to the rules and regulations framed under Section 74, a registered society may appoint such paid officers and servants as may be necessary for the efficient management of its affairs. (2) Qualifications, method of recruitment, conditions of service, scale of pay and allowances of paid officers and employees shall be in accordance with the service rules approved by the Registrar."
+    "title": "Appointment of paid officers and servants of registered society",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "73. Appointment of paid officers and servants.__ Society appoints staff based on prescribed cadre strength, qualifications, and disciplinary service conditions.",
+    "char_count": 160
+  },
+  {
+    "section": "74",
+    "title": "Recruitment Bureaus",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "74. Recruitment Bureaus.__ State and district Recruitment Bureaus constituted for recruiting cooperative staff.",
+    "char_count": 110
+  },
+  {
+    "section": "75",
+    "title": "Constitution of common cadre of service",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "75. Constitution of common cadre of service.__ Common cadre for key posts (Secretaries, Managers, Accountants). Competent authority exercises recruitment, transfer, and disciplinary control. Appeals within 60 days.",
+    "char_count": 213
+  },
+  {
+    "section": "76",
+    "title": "Suspension of paid officer or servant",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "76. Suspension of a paid Officer or servant.__ Registrar may direct suspension of employee facing prima facie evidence of misappropriation or moral turpitude.\n 76-A. Suspension of President or Vice-President: Registrar may suspend President/VP for up to 6 months pending Sec 81 inquiry or Sec 36 action.",
+    "char_count": 302
+  },
+  {
+    "section": "77",
+    "title": "Removal of paid officer or servant of society",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "77. Removal of paid officer or servant.__ Removal of employees convicted of moral turpitude or by direction of Registrar; reinstatement on acquittal.",
+    "char_count": 147
+  },
+  {
+    "section": "78",
+    "title": "Provident Fund",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "78. Provident Fund.__ Societies establish PF invested in financing bank; immune from court attachment or business claims.",
+    "char_count": 121
+  },
+  {
+    "section": "79",
+    "title": "Gratuity Fund",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "79. Gratuity Fund.__ Society establishes Gratuity Fund invested in financing bank for employee retirement benefits; immune from attachment.",
+    "char_count": 141
   },
   {
     "section": "80",
-    "title": "Audit of accounts of registered societies",
-    "chapter": "Chapter IX: Audit, Inquiry, Inspection and Surcharge",
-    "text": "80. Audit: (1) Every registered society shall get its accounts audited at least once in every financial year by an auditor or auditing firm appointed by the general body from among the panel of auditors approved by the Director of Cooperative Audit or the Government. (2) The audit shall include an examination of overdue debts, verification of cash balances and securities, valuation of assets and liabilities, and inspection of all books, accounts and registers. (3) The audit report shall be completed within nine months from the close of the financial year and submitted to the society, the Registrar, and the Director of Cooperative Audit."
+    "title": "Audit (Annual Statutory Audit and Timelines)",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "80. Audit.__ (1) Annual accounts audited by Government auditors or approved audit panel. Financial statements within 3 months; audit completed within 6 months from close of financial year.\n (2) Free access to books, cash, and securities.\n (7) Defects must be rectified within 3 months.",
+    "char_count": 286
   },
   {
     "section": "81",
-    "title": "Inquiry by Registrar",
-    "chapter": "Chapter IX: Audit, Inquiry, Inspection and Surcharge",
-    "text": "81. Inquiry: (1) The Registrar may, of his own motion, and shall, on the application of a majority of the board or not less than one-third of the members, hold an inquiry or direct some person authorized by him by order in writing to hold an inquiry into the constitution, working and financial condition of a registered society. (2) The inquiry officer shall have free access to the books, accounts, documents, securities, cash and other properties belonging to or in the custody of the society, and may summon any person in possession of information to produce documents or give evidence. (3) The inquiry shall be completed within a period of three months, extendable for reasons to be recorded in writing by a further period not exceeding three months."
+    "title": "Statutory Inquiry by Registrar",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "81. Inquiry.__ (1) Registrar conducts inquiry into constitution, working, financial state, or misappropriation suo motu or on application of majority board or 1/3rd members or Collector.\n (2) Powers to summon witnesses, seize records (up to 3 months).\n (4) Inquiry completed within 3 months (extendable up to 3 more months).",
+    "char_count": 328
   },
   {
     "section": "82",
-    "title": "Inspection of books by Registrar",
-    "chapter": "Chapter IX: Audit, Inquiry, Inspection and Surcharge",
-    "text": "82. Inspection of books: (1) The Registrar may of his own motion, or on the application of a creditor of a registered society, inspect or direct any person authorized by him by general or special order in writing to inspect the books of the society. (2) No inspection shall be made on the application of a creditor unless the creditor satisfies the Registrar that the debt is a sum then due, and that he has demanded payment thereof and has not received satisfaction within a reasonable time, and the creditor deposits with the Registrar such sum as security for costs."
+    "title": "Inspection and investigation",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "82. Inspection and investigation.__ Registrar or authorized officer inspects affairs or investigates allegations. Completed within 3 months (extendable by 3 months max).",
+    "char_count": 166
+  },
+  {
+    "section": "83",
+    "title": "Inspection of books by financing bank",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "83. Inspection of books by financing bank.__ Financing bank has statutory right to inspect books of indebted societies at least once a year.",
+    "char_count": 139
+  },
+  {
+    "section": "84",
+    "title": "Maintenance of accounts and books by registered society",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "84. Maintenance of accounts, and books.__ Principal paid officer (Secretary/CEO) or President personally responsible for keeping correct, up-to-date books.\n 84-A. Annual Returns filed to Registrar within 6 months of co-operative year.",
+    "char_count": 235
   },
   {
     "section": "87",
-    "title": "Surcharge",
-    "chapter": "Chapter IX: Audit, Inquiry, Inspection and Surcharge",
-    "text": "87. Surcharge: (1) Where in the course of an audit under Section 80, an inquiry under Section 81, an inspection under Section 82 or Section 83, or the winding up of a society, it appears that any person who has taken part in the organization or management of the society, or any past or present officer or servant of the society has misappropriated, fraudulently retained, misapplied, or caused deficiency or loss to the assets of the society by breach of trust, willful negligence or misconduct, the Registrar may, of his own motion or on application, examine the conduct of such person and make an order requiring him to repay or restore the money or property or contribute such sum to the assets of the society by way of surcharge as compensation. (2) No order shall be passed under subsection (1) unless the person concerned has been given a reasonable opportunity of showing cause against the order."
+    "title": "Surcharge proceedings (Recovery of Misappropriated Funds)",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "87. Surcharge.__ (1) When audit/inquiry/inspection discloses misappropriation, breach of trust, or gross negligence causing deficit, Registrar frames charges and orders repayment with interest.\n (2) Surcharge action commenced within 7 years of detection and completed within 3 months (extendable by 3 months max). Recovered as arrears of land revenue.",
+    "char_count": 353
+  },
+  {
+    "section": "88",
+    "title": "Supersession of board and appointment of Administrator",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "88. Supersession of board.__ Where board is in persistent default, negligence, or acts prejudicial to society, Registrar supersedes board and appoints Administrator for up to 6 months (1 year for cooperative banks) to conduct fresh elections.",
+    "char_count": 239
+  },
+  {
+    "section": "89",
+    "title": "Appointment of administrator in certain circumstances",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "89. Appointment of administrator.__ Where elections could not be held or new board fails to assume office, Registrar appoints Administrator for up to 6 months (extendable up to 1 year max).",
+    "char_count": 190
   },
   {
     "section": "90",
-    "title": "Disputes to be referred to Registrar",
-    "chapter": "Chapter X: Settlement of Disputes",
-    "text": "90. Disputes: (1) If any dispute touching the constitution, state, management or the business of a registered society arises: (a) among members, past members and persons claiming through members; or (b) between a member, past member or deceased member and the society, its board or any officer; or (c) between the society or its board and any past board, officer, agent or servant of the society; or (d) between the society and any other registered society, such dispute shall be referred to the Registrar for decision and no civil court shall have jurisdiction to entertain any suit or other proceeding in respect of such dispute. (2) The Registrar may, on receipt of reference of dispute, decide the dispute himself or transfer it for disposal to any person authorized under the Act."
+    "title": "Disputes and Arbitration",
+    "chapter": "SETTLEMENT OF DISPUTES",
+    "text": "90. Disputes.__ (1) Disputes concerning constitution, board, management, debts, or business referred to Registrar for arbitration.\n (4) Registrar decides whether dispute falls under Section 90.\n (9) Limitation period: 6 years for general disputes; 2 months for election disputes. Civil court jurisdiction barred.",
+    "char_count": 313
+  },
+  {
+    "section": "91",
+    "title": "Insured Co-operative Banks and RBI Powers",
+    "chapter": "INSURED CO-OPERATIVE BANKS",
+    "text": "91. Insured co-operative banks.__ Winding-up, supersession, or amalgamation of insured cooperative banks requires prior sanction or requisition of Reserve Bank of India (RBI).",
+    "char_count": 174
+  },
+  {
+    "section": "92",
+    "title": "Joint Farming Societies",
+    "chapter": "JOINT FARMING SOCIETIES",
+    "text": "92–102. Joint Farming Societies.__ Members pool land for joint cultivation for at least 5 years under registered agreement. Creation of charge, state assistance, and compensation rules.",
+    "char_count": 182
+  },
+  {
+    "section": "103",
+    "title": "Lift Irrigation Societies",
+    "chapter": "LIFT IRRIGATION SOCIETIES",
+    "text": "103–110. Lift Irrigation Societies.__ Societies supplying water by lift irrigation for agriculture. Members execute water supply agreement and land mortgage declarations with Sub-Registrar.",
+    "char_count": 187
+  },
+  {
+    "section": "111",
+    "title": "Agriculture and Rural Development Banks (CARD & SCARDB)",
+    "chapter": "AGRICULTURE AND RURAL DEVELOPMENT BANKS",
+    "text": "111–136. Agriculture and Rural Development Banks.__ Primary (PCARDB) and State (SCARDB) banks grant long-term agricultural and rural credit. Floating charge debentures under Trustee. Power of distraint of produce (Sec 118) and power of sale without court intervention (Sec 119).",
+    "char_count": 284
+  },
+  {
+    "section": "136-A",
+    "title": "Short Term Co-operative Credit Structure Societies (STCCS & PACS)",
+    "chapter": "SHORT TERM CO-OPERATIVE CREDIT STRUCTURE",
+    "text": "136-A to 136-D. Special provisions for PACS, DCCB, and Apex Bank.__\n (1) Depositors with ₹5,000+ for 2 years get full voting membership in PACS.\n (3) Government shareholding capped at 25% max.\n (4) No Government nominee in PACS board; max 1 in DCCB/Apex.\n (6) Operational autonomy with freedom of borrowing, investment, and affiliation.\n (15) CRAR & prudential norms by Registrar with NABARD.\n (21) Primary credit societies not permitted to use word 'Bank'.",
+    "char_count": 465
   },
   {
     "section": "137",
-    "title": "Winding up of registered societies",
-    "chapter": "Chapter XIV: Winding Up and Dissolution of Registered Societies",
-    "text": "137. Winding up of registered societies: (1) If the Registrar, after an audit has been conducted under Section 80, or an inquiry has been held under Section 81, or an inspection has been made under Section 82, or on receipt of an application made by not less than three-fourths of the members of a registered society, is of opinion that the society ought to be wound up, he may, after giving the society an opportunity of making its representation, by order direct it to be wound up. (2) The Registrar may also order the winding up of a registered society if the society has not commenced working, or has ceased working, or the membership has fallen below the statutory minimum."
+    "title": "Winding-up of registered societies",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "137. Winding-up of registered societies.__ Registrar orders winding up following audit, inquiry (Sec 81), inspection, application by 3/4th members, or membership falling below 25.",
+    "char_count": 178
   },
   {
     "section": "138",
-    "title": "Liquidator",
-    "chapter": "Chapter XIV: Winding Up and Dissolution of Registered Societies",
-    "text": "138. Liquidator: (1) Where the Registrar has made an order under Section 137 for the winding up of a registered society, he may appoint a person to be the Liquidator of the society. (2) On the appointment of a Liquidator, all assets, properties, effects and actionable claims of the society shall vest in the Liquidator, and the board and officers of the society shall cease to have any powers."
+    "title": "Liquidator and Custody of Assets",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "138. Liquidator.__ Registrar appoints liquidator on winding-up order to take custody of assets, property, and actionable claims.",
+    "char_count": 126
   },
   {
     "section": "139",
-    "title": "Powers of Liquidator",
-    "chapter": "Chapter XIV: Winding Up and Dissolution of Registered Societies",
-    "text": "139. Powers of Liquidator: (1) The Liquidator shall have power: (a) to institute and defend suits and other legal proceedings on behalf of the society; (b) to determine from time to time the contribution to be made or remaining to be made by members, past members or estates of deceased members to the assets of the society; (c) to investigate all claims against the society and decide questions of priority; (d) to sell the real and personal property and claims of the society; (e) to carry on the business of the society so far as may be necessary for the beneficial winding up."
+    "title": "Powers of liquidator",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "139. Powers of liquidator.__ Liquidator has powers to realize assets, determine contributions, investigate claims, pay debts according to priority, and compromise calls.",
+    "char_count": 167
   },
   {
     "section": "140",
     "title": "Cancellation of registration",
-    "chapter": "Chapter XIV: Winding Up and Dissolution of Registered Societies",
-    "text": "140. Cancellation of registration: (1) When the affairs of a registered society have been completely wound up, the Registrar shall make an order canceling the registration of the society. (2) The society shall stand dissolved and cease to exist as a corporate body from the date of such order of cancellation."
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "140. Cancellation of registration.__ On final winding up, Registrar cancels registration; society ceases corporate existence.",
+    "char_count": 124
+  },
+  {
+    "section": "141",
+    "title": "Bar of legal proceedings in winding up",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "141. Bar of legal proceedings.__ No civil suit or proceedings against liquidator or society without leave of the Registrar.",
+    "char_count": 123
   },
   {
     "section": "143",
-    "title": "Enforcement of charge on land and crops",
-    "chapter": "Chapter XV: Execution of Decrees, Decisions, Awards and Orders",
-    "text": "143. Enforcement of charge: (1) Notwithstanding anything contained in any law for the time being in force, any amount due to a registered society in respect of which a charge has been created under Section 40 or Section 41 may be recovered by the Registrar or any person empowered by him by distraint and sale of the produce or property subject to the charge in the prescribed manner."
+    "title": "Recovery of sums by attachment and sale of property",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "143. Power of Registrar to recover sums by attachment and sale.__ Registrar executes decrees, arbitration awards, surcharge orders, and liquidation dues by attachment and auction.",
+    "char_count": 180
+  },
+  {
+    "section": "144",
+    "title": "Recovery of debts through charge on produce",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "144. Recovery of debts.__ Recovery of debts by sale of property subject to charge under Section 40 after 15 days' notice.",
+    "char_count": 121
+  },
+  {
+    "section": "148",
+    "title": "Recovery of sums due to Government",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "148. Recovery of sums due to Government.__ Sums due to Government recovered as arrears of land revenue.",
+    "char_count": 104
+  },
+  {
+    "section": "150",
+    "title": "Certificate for recovery of sums due from members",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "150. Certificate for recovery.__ Registrar issues recovery certificate on society application; certificate is conclusive evidence recoverable as land revenue.",
+    "char_count": 156
+  },
+  {
+    "section": "151",
+    "title": "Co-operative Tribunal",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "151. Co-operative Tribunal.__ Government constitutes Co-operative Tribunals comprising judicial officers (Sub-Judge rank).",
+    "char_count": 120
   },
   {
     "section": "152",
-    "title": "Appeals",
-    "chapter": "Chapter XVI: Appeals, Revision and Review",
-    "text": "152. Appeals: (1) Any person aggrieved by any decision or order under Section 9, 11, 25, 36, 87, 90, 137 or 158 may appeal to the Cooperative Tribunal or the Government or the Registrar as prescribed, within sixty days from the date of the decision or order. (2) The Tribunal or the appellate authority may, after giving the parties an opportunity of being heard, confirm, modify, or set aside the decision or order."
+    "title": "Appeals to Tribunal and Registrar",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "152. Appeals.__ Appeals against surcharge (Sec 87), arbitration awards (Sec 90), distraint (Sec 118/119), or attachment (Sec 143/167) lie to Tribunal within 60 days. Appeals on registration, admission, supersession lie to Registrar/Government.",
+    "char_count": 249
   },
   {
     "section": "153",
-    "title": "Revision",
-    "chapter": "Chapter XVI: Appeals, Revision and Review",
-    "text": "153. Revision: (1) The Registrar may of his own motion or on application made by an aggrieved party call for and examine the record of any proceeding under this Act to satisfy himself as to the regularity of such proceeding or the correctness, legality or propriety of any decision or order passed therein, and if it appears to him that any such decision or order should be modified, annulled, reversed or remitted for reconsideration, he may pass orders accordingly."
+    "title": "Revision powers of Registrar and Government",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "153. Revision.__ Registrar or Government may suo motu or on application within 90 days examine legality/propriety of orders and revise.",
+    "char_count": 133
+  },
+  {
+    "section": "154",
+    "title": "Review of orders",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "154. Review.__ Parties may apply for review of appeal/revision orders upon discovery of new evidence or error on face of record.",
+    "char_count": 129
+  },
+  {
+    "section": "156",
+    "title": "Bar of jurisdiction of Civil Courts",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "156. Bar of jurisdiction of Civil Courts.__ Civil courts have no jurisdiction over orders, awards, or directions issued under this Act; no injunctions granted.",
+    "char_count": 157
   },
   {
     "section": "157",
-    "title": "Offences",
-    "chapter": "Chapter XVII: Offences and Penalties",
-    "text": "157. Offences: (1) It shall be an offence under this Act if: (a) a board, officer or member fails to give any notice, send any return or document, or perform any duty required by this Act; (b) any person willfully makes a false return, furnishes false information, or suppresses material facts; (c) any officer, servant or member destroys, mutilates, alters, falsifies or secretes any books, papers or securities belonging to the society; (d) any employer fails to deduct or remit amounts deducted under Section 42."
+    "title": "Punishment for false information or disobeying orders",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "157. Punishment for false information.__ Making false returns or withholding audit info punishable with up to 6 months imprisonment and ₹5,000 fine.",
+    "char_count": 147
   },
   {
     "section": "158",
-    "title": "Penalties for offences",
-    "chapter": "Chapter XVII: Offences and Penalties",
-    "text": "158. Penalties: (1) Any registered society, board, officer, employee or person guilty of an offence under Section 157 shall, on conviction, be punishable with imprisonment for a term which may extend to three years, or with fine which may extend to ten thousand rupees, or with both."
+    "title": "Punishment for contravention of statutory charges",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "158. Punishment for contravention of charges.__ Unauthorized sale of property charged under Section 40, 41, 95, 105, 124 punishable with up to 6 months imprisonment and ₹5,000 fine.",
+    "char_count": 182
+  },
+  {
+    "section": "159",
+    "title": "Prohibition of unauthorized use of the word 'co-operative'",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "159. Prohibition of the word 'co-operative'.__ Unauthorized use of 'co-operative' or regional equivalent in business title is punishable with ₹5,000 fine (plus ₹500/day continuing).",
+    "char_count": 178
+  },
+  {
+    "section": "161",
+    "title": "Punishment for misuse or non-handover of records and property",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "161. Punishment for misuse of property/records.__ Failure to handover records/funds to authorized officer/administrator punishable with up to 1 year imprisonment and ₹10,000 fine.",
+    "char_count": 178
+  },
+  {
+    "section": "162",
+    "title": "Punishment for corrupt election practices",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "162. Corrupt practices in elections.__ Defacing nomination/ballot papers, bribery, or interfering with ballot boxes punishable with up to 1 year imprisonment and ₹10,000 fine.",
+    "char_count": 175
   },
   {
     "section": "164",
-    "title": "Bar of jurisdiction of civil courts",
-    "chapter": "Chapter XVIII: Miscellaneous",
-    "text": "164. Bar of jurisdiction of civil courts: (1) Save as expressly provided in this Act, no civil or revenue court shall have any jurisdiction in respect of: (a) the registration of a society or its bye-laws; (b) the removal of a board or member; (c) any dispute required under Section 90 to be referred to the Registrar; (d) any matter in respect of which the Registrar, Tribunal, or Liquidator is empowered by or under this Act to determine."
+    "title": "Cognizance of offences",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "164. Cognizance of offences.__ Offences non-cognizable; tried by Metropolitan/Judicial Magistrate (1st class) with previous sanction of Registrar.",
+    "char_count": 145
+  },
+  {
+    "section": "165",
+    "title": "Magisterial search and delivery of records and property",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "165. Delivery of possession of records and properties.__ Magistrate issues police search warrant to seize and handover withheld society records and properties.",
+    "char_count": 160
+  },
+  {
+    "section": "180",
+    "title": "Rule-making powers of the State Government",
+    "chapter": "MISCELLANEOUS",
+    "text": "180. Power to make rules.__ Government makes statutory rules for registration, elections, cadre, accounts, audit, appeals, and overall administration under the Act.",
+    "char_count": 162
+  },
+  {
+    "section": "181",
+    "title": "Power of Registrar to give statutory directions in public interest",
+    "chapter": "MISCELLANEOUS",
+    "text": "181. Power of Registrar to give directions.__ Registrar issues binding directions to registered societies in public interest or to prevent detrimental management.",
+    "char_count": 161
+  },
+  {
+    "section": "Schedule",
+    "title": "Scheduled Co-operative Societies (Part A Apex & Part B Central/Specialized)",
+    "chapter": "SCHEDULE",
+    "text": "Schedule (Sections 2(25) & 179): Part A Apex Societies (TNSC Bank, SCARDB, TNCU, TNCMPF/Aavin, Co-optex, TANFED, INDCOSERVE, INDCO, Central Co-op Banks, etc.); Part B: PACMS, CARD Banks, Urban Banks, Co-op Sugar Mills, TEASERVE.",
+    "char_count": 234
   }
 ];
 
 export const STATIC_ACT_CHUNKS: any[] = [
   {
-    "id": "sec_1_scope",
+    "chunk_id": "sec_1_1",
     "section": "1",
-    "subSection": "1(1)-(3)",
-    "title": "Short title, extent and commencement (சட்டத்தின் பெயர் மற்றும் வரம்பு)",
-    "chapter": "Chapter I: Preliminary",
-    "topics": [
+    "title": "Short title, extent and commencement",
+    "chapter": "PRELIMINARY",
+    "text": "1. Short title, extent and commencement. __ (1) This Act may be called the Tamil Nadu Co-operative Societies Act, 1983.\n (2) It extends to the whole of the State of Tamil Nadu.\n (3) It shall come into force on such date as the Government may, by notification, appoint.",
+    "summary_ta": "தமிழ்நாடு கூட்டுறவு சங்கங்கள் சட்டம் 1983 - பெயர், எல்லை மற்றும் தொடக்கம்.",
+    "keywords": [
+      "பெயர்",
+      "தொடக்கம்",
+      "எல்லை",
       "title",
-      "extent",
-      "commencement",
-      "tamil nadu",
-      "scope",
-      "சட்டம் பெயர்",
-      "வரம்பு",
-      "தமிழ்நாடு"
-    ],
-    "text": "1. Short title, extent and commencement: (1) This Act may be called the Tamil Nadu Co-operative Societies Act, 1983. (2) It extends to the whole of the State of Tamil Nadu.",
-    "summary_en": "Applies to all cooperative societies across the State of Tamil Nadu.",
-    "summary_ta": "தமிழ்நாடு முழுவதும் உள்ள அனைத்து கூட்டுறவு சங்கங்களுக்கும் இச்சட்டம் பொருந்தும்."
+      "commencement"
+    ]
   },
   {
-    "id": "sec_2_pacs_definition",
+    "chunk_id": "sec_2_2",
     "section": "2",
-    "subSection": "2(g)",
-    "title": "Primary Agricultural Cooperative Society Definition (தொடக்க வேளாண்மை கூட்டுறவு கடன் சங்கம் விளக்கம்)",
-    "chapter": "Chapter I: Preliminary",
-    "topics": [
-      "pacs",
-      "definition",
-      "agricultural credit",
-      "farmers",
-      "society meaning",
-      "தொடக்க வேளாண்மை",
-      "விவசாய கடன்",
+    "title": "Definitions",
+    "chapter": "PRELIMINARY",
+    "text": "2. Definitions.__ In this Act, unless the context otherwise requires __\n (1) “administrator” means a Government servant or an employee of anybody corporate owned or controlled by the Government appointed under this Act in the place of the board;\n (1A) “agriculture” includes horticulture, floriculture, raising of crops (including plantation, tree crops and garden produce), seed farming and forestry and the word “agricultural” shall be construed accordingly;\n (2) “agricultural producers marketing society” means a registered society which has as its principal object the arranging for and the undertaking of purchase, storing, processing and marketing of the agricultural and other produce or products of its members or the undertaking of the distribution of commodities;\n (3) “agricultural service co-operative society” means a registered society, which has as its principal object the raising of funds to be lent to its members primarily for agricultural production, animal husbandry, pisciculture including fish catching, apiculture and sericulture;\n (4) “animal husbandry” includes cattle breeding, dairy farming, piggery and poultry farming;\n (5) “apex society” means a state level registered society whose area of operation extends to the whole of the State of Tamil Nadu;\n (6) “associate member” means a member who possesses only such privileges and rights of a member and who is subject only to such liabilities of a member as may be specified in this Act, the rules and the by-laws;\n (7) “board” means the board of directors or the governing body of a registered society;\n (8) “by-laws” means the registered by-laws for the time being in force;\n (9) “central society” means a registered society whose area of operation is confined to a part of the State of Tamil Nadu;\n (10) “consumer society” means a registered society which has as its principal object the supply of the requirements of its members for consumption;\n (11) “co-operative union” means a registered society which has as its principal object co-operative education, propaganda, training and mobilisation of savings;\n (12) “co-operative year” means the period commencing on the first day of April of any year and ending with the 31st day of March of the succeeding year;\n (13) “credit society” means a registered society which has as its principal object the raising of funds to be lent to its members;\n (14) “financing bank” means a registered society which has as its principal object the lending of money to other registered societies;\n (15) “Government” means the State Government;\n (16) “member” means a person joining in the application for registration and a person admitted to membership;\n (17) “milk producers society” means a registered society for purchase, storing, processing and marketing of milk;\n (18) “office-bearer” means a president or vice-president of the board;\n (19) “officer” includes a president, vice-president, managing director, secretary, assistant secretary, member of board;\n (21) “primary society” means a registered society, but does not include an apex society or central society;\n (22) “registered society” means a co-operative society registered under this Act;\n (23) “Registrar” means an officer of the Government appointed to perform the duties of a Registrar of Co-operative Societies;\n (24) “rules” means rules made under this Act;\n (25) “scheduled co-operative society” means any registered society specified in the Schedule to this Act;\n (29) “Tribunal” means a Tribunal constituted under section 151.",
+    "summary_ta": "முக்கிய விளக்கங்கள்: தொடக்க வேளாண்மை கடன் சங்கம், முதன்மை சங்கம், தலைமை சங்கம், மத்திய வங்கி, பதிவாளர், உறுப்பினர், நிர்வாகக்குழு.",
+    "keywords": [
       "விளக்கம்",
-      "பயிர் கடன் சங்கம்",
-      "விவசாயிகள்"
-    ],
-    "text": "2(g) 'Primary Agricultural Cooperative Society (PACS)' means a cooperative society formed primarily for providing short-term or medium-term agricultural credit to farmers and agricultural producers.",
-    "summary_en": "PACS is formed primarily to provide short-term and medium-term agricultural credit to farmers.",
-    "summary_ta": "தொடக்க வேளாண்மை கூட்டுறவு கடன் சங்கம் என்பது விவசாயிகளுக்கு குறுகிய மற்றும் நடுத்தர கால பயிர்க்கடன் வழங்க அமைக்கப்பட்ட சங்கமாகும்."
+      "பொருள்",
+      "definitions",
+      "pacs",
+      "primary",
+      "apex",
+      "central",
+      "member"
+    ]
   },
   {
-    "id": "sec_4_registration_object",
-    "section": "4",
-    "subSection": "4",
-    "title": "Societies which may be registered (பதிவு செய்யப்படக்கூடிய சங்கங்கள்)",
-    "chapter": "Chapter II: Registration",
-    "topics": [
-      "registration",
-      "society objects",
-      "welfare",
-      "economic interests",
-      "சங்க பதிவு",
-      "நோக்கம்",
-      "கூட்டுறவு தத்துவம்",
-      "உறுப்பினர் நலம்"
-    ],
-    "text": "4. Societies which may be registered: A society having as its object the promotion of the economic interests or general welfare of its members in accordance with co-operative principles may be registered.",
-    "summary_en": "Societies promoting economic interests or member welfare on cooperative principles can be registered.",
-    "summary_ta": "கூட்டுறவு கொள்கைகளின்படி உறுப்பினர்களின் பொருளாதார நலனை மேம்படுத்தும் சங்கங்கள் பதிவு செய்யப்படலாம்."
-  },
-  {
-    "id": "sec_9_registration_procedure",
-    "section": "9",
-    "subSection": "9(1)-(2)",
-    "title": "Registration by Registrar (பதிவாளரால் சங்கம் பதிவு செய்தல்)",
-    "chapter": "Chapter II: Registration",
-    "topics": [
-      "registrar",
-      "registration process",
-      "refusal",
-      "bye laws approval",
-      "பதிவு செயல்முறை",
+    "chunk_id": "sec_3_3",
+    "section": "3",
+    "title": "The Registrar",
+    "chapter": "REGISTRATION",
+    "text": "3. The Registrar.__ The Government may appoint any officer of the Government to be Registrar of co-operative societies for the State of Tamil Nadu or any portion of it or for any class or classes or category or categories of registered societies and may, by general or special order confer on any other officer of the Government or any officer of anybody corporate owned or controlled by the Government all or any of the powers of a Registrar under this Act.",
+    "summary_ta": "பதிவாளர்: தமிழக அரசு நியமிக்கும் கூட்டுறவு சங்கங்களின் பதிவாளர் மற்றும் அவருடைய அதிகாரங்கள்.",
+    "keywords": [
       "பதிவாளர்",
-      "மறுப்பு ஆணை",
-      "விதிகள் ஒப்புதல்"
-    ],
-    "text": "9. Registration: If the Registrar is satisfied that a society complies with the Act and rules and its bye-laws have reasonable prospects of functioning, he registers the society. If refused, reasons must be communicated in writing.",
-    "summary_en": "Registrar registers society if compliant with rules; written reasons must be given if refused.",
-    "summary_ta": "சட்ட விதிகளுக்கு உட்பட்டு இருக்கும் சங்கத்தை பதிவாளர் பதிவு செய்வார்; மறுக்கப்பட்டால் எழுத்துப்பூர்வ காரணங்கள் தெரிவிக்கப்படும்."
+      "registrar",
+      "powers",
+      "appointment"
+    ]
   },
   {
-    "id": "sec_11_amendment_byelaws",
+    "chunk_id": "sec_4_4",
+    "section": "4",
+    "title": "Societies which may be registered",
+    "chapter": "REGISTRATION",
+    "text": "4. Societies which may be registered.__ Subject to the provisions of this Act, a society which has as its object the promotion of the economic interest or general welfare of its members in accordance with co-operative principles, or a society established with the object of facilitating the operations of such a society, may be registered under this Act with limited or unlimited liability:\n Provided that the liability of –\n (i) a society of which a registered society is a member; and\n (ii) an agricultural service co-operative society registered after the commencement of this Act, shall be limited.",
+    "summary_ta": "பதிவு செய்யத்தக்க சங்கங்கள்: உறுப்பினர்களின் பொருளாதார நலன் அல்லது பொது நன்மையை கூட்டுறவு கொள்கைப்படி மேம்படுத்தும் சங்கங்கள்.",
+    "keywords": [
+      "பதிவு",
+      "சங்கங்கள்",
+      "registration",
+      "societies"
+    ]
+  },
+  {
+    "chunk_id": "sec_5_5",
+    "section": "5",
+    "title": "Change of liability",
+    "chapter": "REGISTRATION",
+    "text": "5. Change of liability.__ (1) Subject to any rules made in this behalf, any registered society may, at a meeting of its general body specially called for the purpose of which at least fifteen clear days' notice shall be given to its members, resolve to change its liability from unlimited to limited and to amend its by-laws for this purpose.\n (2) When a resolution is passed, a copy shall be sent to all members and creditors. Members or creditors may within two months intimate intention to withdraw share/demand return of dues.\n (4) If the Registrar is satisfied that repayment has been made, he may register the amendment.",
+    "summary_ta": "பொறுப்பு மாற்றம்: சங்கத்தின் பொதுக்குழுவில் தீர்மானம் நிறைவேற்றி வரம்பற்ற பொறுப்பிலிருந்து வரையறுக்கப்பட்ட பொறுப்பாக மாற்றுதல்.",
+    "keywords": [
+      "பொறுப்பு",
+      "வரையறுக்கப்பட்ட",
+      "liability",
+      "limited"
+    ]
+  },
+  {
+    "chunk_id": "sec_6_6",
+    "section": "6",
+    "title": "Conditions of registration",
+    "chapter": "REGISTRATION",
+    "text": "6. Conditions of registration.__ (1) No society, other than a society of which a member is a registered society, shall be registered under this Act which does not consist of at least twenty-five independent persons qualified to be admitted as members under this Act and residing or owning immovable property in the area of operation of the society.\n Explanation I.- Independent person means a person who is not dependent upon another person joining in the application for his means of livelihood and does not belong to the family of any other person joining.\n (2) The word “limited” shall be the last word in the name of every society with limited liability registered under this Act.",
+    "summary_ta": "பதிவுக்கான நிபந்தனைகள்: குறைந்தபட்சம் 25 தனிநபர்கள் உறுப்பினர்களாக இருத்தல் வேண்டும்.",
+    "keywords": [
+      "25 நபர்கள்",
+      "நிபந்தனைகள்",
+      "conditions",
+      "members"
+    ]
+  },
+  {
+    "chunk_id": "sec_7_7",
+    "section": "7",
+    "title": "Power of Registrar to decide certain questions",
+    "chapter": "REGISTRATION",
+    "text": "7. Power of Registrar to decide certain questions.__ When any question arises whether for the purposes of this Act any person is an independent person or is a resident of, or owns immovable property in the area of operation of a society, the question shall be decided by the Registrar within such period as may be prescribed.",
+    "summary_ta": "பதிவாளரின் முடிவெடுக்கும் அதிகாரம்: தகுதி மற்றும் குடியிருப்பு குறித்த சந்தேகங்களில் பதிவாளர் முடிவெடுப்பார்.",
+    "keywords": [
+      "பதிவாளர் முடிவு",
+      "தகுதி",
+      "power to decide"
+    ]
+  },
+  {
+    "chunk_id": "sec_8_8",
+    "section": "8",
+    "title": "Application for registration",
+    "chapter": "REGISTRATION",
+    "text": "8. Application for registration.-- (1) An application for registration shall be made to the Registrar in the prescribed form.\n (2) The application shall be signed by at least twenty-five qualified persons (or by authorized representatives where a member is a registered society).\n (3) The application shall be accompanied by a copy of the proposed by-laws of the society and the chief promoter shall furnish required information.",
+    "summary_ta": "பதிவு விண்ணப்பம்: 25 நபர்களின் கையொப்பம் மற்றும் மாதிரி துணை விதிகளுடன் பதிவாளரிடம் விண்ணப்பித்தல்.",
+    "keywords": [
+      "விண்ணப்பம்",
+      "application",
+      "registration"
+    ]
+  },
+  {
+    "chunk_id": "sec_9_9",
+    "section": "9",
+    "title": "Registration",
+    "chapter": "REGISTRATION",
+    "text": "9. Registration.__ (1) If the Registrar is satisfied that the application complies with the Act and rules, objects are in accordance with Section 4, the society has sound business prospects, does not overlap area of another society of same category, and by-laws are valid, he may within 120 days register the society and by-laws.\n (2) Refusal must be communicated within 120 days with reasons.\n (3) Deemed registration applies on the 120th day if no refusal order is communicated.",
+    "summary_ta": "பதிவு செய்தல்: விண்ணப்பம் பெற்ற 120 நாட்களுக்குள் சங்கம் மற்றும் துணை விதிகளைப் பதிவு செய்தல் அல்லது மறுத்தல்.",
+    "keywords": [
+      "120 நாட்கள்",
+      "பதிவு",
+      "registration",
+      "120 days"
+    ]
+  },
+  {
+    "chunk_id": "sec_10_10",
+    "section": "10",
+    "title": "Evidence of registration",
+    "chapter": "REGISTRATION",
+    "text": "10. Evidence of registration.__ Where a society is registered or deemed to have been registered, the Registrar shall issue a certificate of registration signed by him, which shall be conclusive evidence that the society is duly registered unless registration is cancelled.",
+    "summary_ta": "பதிவுச் சான்றிதழ்: சங்கம் சட்டப்படி பதிவு செய்யப்பட்டதற்கான இறுதியான சான்றாகும்.",
+    "keywords": [
+      "சான்றிதழ்",
+      "certificate",
+      "evidence"
+    ]
+  },
+  {
+    "chunk_id": "sec_11_11",
     "section": "11",
-    "subSection": "11(1)-(3)",
-    "title": "Amendment of bye-laws (துணை விதிகள் திருத்தம்)",
-    "chapter": "Chapter II: Registration",
-    "topics": [
-      "bye-laws",
+    "title": "Amendment of the by-laws of registered society",
+    "chapter": "REGISTRATION",
+    "text": "11. Amendment of the by-laws of registered society.__ (1) No amendment of any by-law of a registered society shall be valid until registered under this Act.\n (2) Application shall be made to the Registrar in prescribed manner.\n (3) Registrar may register the amendment if satisfied it complies with the Act, rules, and cooperative principles.\n (5) Certified copy of amendment is conclusive evidence of due registration.\n (8) Takes effect from date specified, or from date of registration.",
+    "summary_ta": "துணை விதிகள் திருத்தம்: சங்கத்தின் துணை விதிகளில் செய்யப்படும் திருத்தங்கள் பதிவாளரால் பதிவு செய்யப்பட்ட பின்னரே நடைமுறைக்கு வரும்.",
+    "keywords": [
+      "துணைவிதிகள்",
+      "திருத்தம்",
       "amendment",
-      "rules change",
-      "byelaw registration",
-      "துணை விதிகள்",
-      "விதிகள் திருத்தம்",
-      "பதிவாளர் ஒப்புதல்",
-      "thunai vidhigal"
-    ],
-    "text": "11. Amendment of bye-laws: No amendment of any bye-law of a registered society shall be valid until registered under this Act by the Registrar upon application.",
-    "summary_en": "Bye-law amendments are valid only upon registration and approval by the Registrar.",
-    "summary_ta": "துணை விதிகளில் செய்யப்படும் திருத்தங்கள் பதிவாளரால் பதிவு செய்யப்பட்டு ஒப்புதல் பெற்ற பின்னரே செல்லுபடியாகும்."
+      "by-laws"
+    ]
   },
   {
-    "id": "sec_21_membership_qualifications",
+    "chunk_id": "sec_12_12",
+    "section": "12",
+    "title": "Power to direct amendment of by-laws",
+    "chapter": "REGISTRATION",
+    "text": "12. Power to direct amendment of by-laws.__ (1) Where the Registrar is satisfied that for altering area of operation or improving services an amendment of by-laws is necessary, he may, after consulting the financing bank, call upon the society by notice to show cause why amendment should not be made.\n (2) If society fails to make amendment, Registrar may register the amendment after giving opportunity to make representation.",
+    "summary_ta": "துணை விதிகளைத் திருத்த பதிவாளரின் அதிகாரம்: பொதுநலன் கருதி துணை விதிகளைத் திருத்த உத்தரவிட பதிவாளருக்கு அதிகாரம்.",
+    "keywords": [
+      "உத்தரவு",
+      "துணைவிதி",
+      "direct amendment"
+    ]
+  },
+  {
+    "chunk_id": "sec_13_13",
+    "section": "13",
+    "title": "Division and amalgamation of societies",
+    "chapter": "REGISTRATION",
+    "text": "13. Division and amalgamation of societies.__ (1) Any registered society may, at a special general meeting with 15 clear days' notice, resolve by 2/3rd majority to divide into two or more societies or amalgamate with other societies.\n (2) Members and creditors have 1 month to give notice to withdraw shares or demand repayment.\n (3) Assets and liabilities vest in the new or amalgamated societies upon registration.",
+    "summary_ta": "சங்கங்களை பிரித்தல் மற்றும் இணைத்தல்: 2/3 பெரும்பான்மை பொதுக்குழு தீர்மானம் மற்றும் பதிவாளர் ஒப்புதலுடன் சங்கங்கள் இணைக்கப்படலாம் அல்லது பிரிக்கப்படலாம்.",
+    "keywords": [
+      "பிரித்தல்",
+      "இணைத்தல்",
+      "amalgamation",
+      "division"
+    ]
+  },
+  {
+    "chunk_id": "sec_14_14",
+    "section": "14",
+    "title": "Power to direct amalgamation in public interest",
+    "chapter": "REGISTRATION",
+    "text": "14. Power to direct amalgamation in public interest, etc.__ (1) Where the Registrar is satisfied in the public interest or interest of cooperative movement or proper management that two or more societies should amalgamate, he may by order in Gazette provide for amalgamation into a single society.\n (2) Draft order must be sent to societies, members, and creditors for objections/suggestions with at least 2 months' time.",
+    "summary_ta": "பொதுநலன் கருதி சங்கங்களை இணைக்க உத்தரவு: அரசு அரசிதழில் அறிவிப்பு வெளியிட்டு பொதுநலனுக்காக சங்கங்களை இணைக்க பதிவாளருக்கு அதிகாரம்.",
+    "keywords": [
+      "அரசாணை",
+      "இணைப்பு",
+      "public interest",
+      "amalgamation"
+    ]
+  },
+  {
+    "chunk_id": "sec_15_15",
+    "section": "15",
+    "title": "Transfer of assets and liabilities among registered societies",
+    "chapter": "REGISTRATION",
+    "text": "15. Transfer of assets and liabilities among registered societies.__ Two or more registered societies may, at general body meetings with 15 days' notice, resolve to transfer assets and liabilities among themselves with Registrar's approval.",
+    "summary_ta": "சொத்துக்கள் மற்றும் பொறுப்புகளை மாற்றுதல்: சங்கங்களுக்கிடையே சொத்து மற்றும் பொறுப்புகளைப் பகிர்ந்தளித்தல்.",
+    "keywords": [
+      "சொத்துக்கள்",
+      "பொறுப்புகள்",
+      "assets",
+      "liabilities"
+    ]
+  },
+  {
+    "chunk_id": "sec_16_16",
+    "section": "16",
+    "title": "Classification and categorisation",
+    "chapter": "REGISTRATION",
+    "text": "16. Classification and categorisation.__ The Registrar shall, in accordance with the rules, classify and categorise registered societies with reference to objects, area of operation, membership, or other specified matters.",
+    "summary_ta": "சங்கங்களை வகைப்படுத்துதல்: சங்கத்தின் நோக்கம், பரப்பளவு அடிப்படையில் பதிவாளர் வகைப்படுத்துவார்.",
+    "keywords": [
+      "வகைப்படுத்துதல்",
+      "classification",
+      "categorisation"
+    ]
+  },
+  {
+    "chunk_id": "sec_17_17",
+    "section": "17",
+    "title": "Conversion",
+    "chapter": "REGISTRATION",
+    "text": "17. Conversion.__ Any registered society may, subject to rules, resolve to convert itself into a registered society of a class or category different from the one to which it belongs.",
+    "summary_ta": "மாற்றுதல் (Conversion): ஒரு வகை சங்கத்தை வேறொரு வகையாக மாற்றுதல்.",
+    "keywords": [
+      "மாற்றுதல்",
+      "conversion"
+    ]
+  },
+  {
+    "chunk_id": "sec_18_18",
+    "section": "18",
+    "title": "Joint business",
+    "chapter": "REGISTRATION",
+    "text": "18. Joint business.__ Any registered society may, with previous approval of the Registrar and by resolution at general meeting, enter into agreement with another society or Government undertaking for carrying on jointly any specific business.",
+    "summary_ta": "கூட்டு வணிகம்: பிற சங்கங்கள் அல்லது அரசு நிறுவனங்களுடன் இணைந்து தொழில் அல்லது வணிகம் செய்தல்.",
+    "keywords": [
+      "கூட்டு வணிகம்",
+      "joint business"
+    ]
+  },
+  {
+    "chunk_id": "sec_19_19",
+    "section": "19",
+    "title": "Co-operative Unions",
+    "chapter": "REGISTRATION",
+    "text": "19. Co-operative Unions.__ There shall be a co-operative union for Tamil Nadu called 'Tamil Nadu Co-operative Union Limited', and district co-operative unions as deemed necessary.",
+    "summary_ta": "கூட்டுறவு ஒன்றியங்கள்: தமிழ்நாடு கூட்டுறவு ஒன்றியம் மற்றும் மாவட்ட கூட்டுறவு ஒன்றியங்கள்.",
+    "keywords": [
+      "ஒன்றியம்",
+      "co-operative union"
+    ]
+  },
+  {
+    "chunk_id": "sec_20_20",
+    "section": "20",
+    "title": "Registered societies to be members of co-operative unions",
+    "chapter": "REGISTRATION",
+    "text": "20. Registered societies to be members of co-operative unions.__ Every registered society is deemed to be a member of the District or State Co-operative Union and pays annual subscription.\n 20-A. Co-operative education and training: Co-operative unions undertake member education and training with dedicated funds in annual budget.",
+    "summary_ta": "கூட்டுறவு கல்வி மற்றும் பயிற்சி: சங்கங்கள் கூட்டுறவு ஒன்றியங்களில் உறுப்பினராக இருத்தல் மற்றும் பயிற்சி நிதி ஒதுக்குதல்.",
+    "keywords": [
+      "கல்வி",
+      "பயிற்சி",
+      "education",
+      "training"
+    ]
+  },
+  {
+    "chunk_id": "sec_21_21",
     "section": "21",
-    "subSection": "21(1)",
-    "title": "Qualifications for membership (உறுப்பினர் தகுதி மற்றும் நிபந்தனைகள்)",
-    "chapter": "Chapter III: Members Rights & Liabilities",
-    "topics": [
-      "membership",
-      "qualifications",
-      "admission",
-      "residence",
-      "contract",
+    "title": "Qualifications for membership of society",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "21. Qualifications for membership of society.__ (1) (a) Individuals competent to contract under Section 11 of Contract Act, registered societies, Government, or approved bodies are eligible for membership.\n (b) No individual is eligible for membership in financing bank or apex society except as associate member.\n (2) Board or general body admits eligible individuals upon application. Deemed admission occurs on the 60th day if decision is not communicated.\n (3) Members must pay prescribed share capital before exercising membership rights.",
+    "summary_ta": "உறுப்பினர் தகுதிகள்: 18 வயது நிரம்பிய தகுதியுள்ள நபர்கள், அரசு மற்றும் பிற சங்கங்கள் உறுப்பினராகலாம். விண்ணப்பித்து 60 நாட்களில் பதில் கூறாவிடில் சேர்ந்ததாகக் கருதப்படும்.",
+    "keywords": [
       "உறுப்பினர் தகுதி",
-      "சேர்க்கை",
-      "நில உரிமை",
-      "வதிவிடம்",
-      "urupinar thagudhi"
-    ],
-    "text": "21. Qualifications for membership: An individual competent to contract under the Indian Contract Act who is a resident in the area of operation or in possession of land in such area may be admitted as a member.",
-    "summary_en": "Adult residents or land-possessors in the society's area of operation can become members.",
-    "summary_ta": "சங்கத்தின் எல்லைக்குள் வசிக்கும் அல்லது நிலம் வைத்துள்ள தகுதியான நபர்கள் உறுப்பினராக சேரலாம்."
+      "60 நாட்கள்",
+      "membership",
+      "admission"
+    ]
   },
   {
-    "id": "sec_22_associate_members",
+    "chunk_id": "sec_22_22",
     "section": "22",
-    "subSection": "22(1)-(2)",
-    "title": "Associate members (இணை உறுப்பினர்கள் உரிமை மற்றும் வரம்பு)",
-    "chapter": "Chapter III: Members Rights & Liabilities",
-    "topics": [
-      "associate member",
-      "no voting rights",
-      "no profit share",
+    "title": "Admission of associate members",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "22. Admission of associate members.__ Societies may admit associate members as prescribed. Associate members have no right to vote in general meetings or elections, nor hold office or claim share in profits.",
+    "summary_ta": "இணை உறுப்பினர்கள் (Associate Members): குறிப்பிட்ட சலுகைகள் மட்டும் கொண்ட உறுப்பினர்கள்; இவர்களுக்கு தேர்தலில் வாக்களிக்கும் உரிமை இல்லை.",
+    "keywords": [
       "இணை உறுப்பினர்",
       "வாக்குரிமை இல்லை",
-      "பங்கு லாபம் இல்லை",
-      "inai urupinar"
-    ],
-    "text": "22. Associate members: A society may admit associate members. Associate members have no right to vote, cannot contest elections to the board, and cannot claim any share in assets or profits.",
-    "summary_en": "Associate members cannot vote, contest board elections, or share in profits.",
-    "summary_ta": "இணை உறுப்பினர்களுக்கு வாக்களிக்கும் உரிமையோ, தேர்தலில் போட்டியிடும் உரிமையோ, லாபப் பங்கீடோ கிடையாது."
+      "associate member",
+      "no voting"
+    ]
   },
   {
-    "id": "sec_23_disqualifications_member",
+    "chunk_id": "sec_23_23",
     "section": "23",
-    "subSection": "23(1)",
-    "title": "Disqualifications for membership (உறுப்பினர் தகுதியிழப்பு காரணங்கள்)",
-    "chapter": "Chapter III: Members Rights & Liabilities",
-    "topics": [
-      "disqualification",
-      "insolvent",
-      "criminal conviction",
-      "paid employee",
-      "competing business",
+    "title": "Disqualifications for membership of society",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "23. Disqualifications for membership of society.__ (1) Persons ineligible: undischarged insolvents, persons convicted of moral turpitude with 1+ year imprisonment (within 1 year of release), paid employees of the society, persons expelled within 3 years, persons engaged in competing business, or persons lacking object qualifications.\n (2) A member ceases to be a member on insolvency, conviction, paid employment, expulsion, or absence from 3 consecutive general meetings.\n (4) Registrar decides all disqualification questions.",
+    "summary_ta": "உறுப்பினர் தகுதியிழப்பு: திவால் ஆனவர், குற்றவியல் தண்டனை பெற்றவர், சங்க ஊழியர், போட்டி தொழில் செய்பவர் உறுப்பினராக முடியாது; 3 பொதுக்கூட்டங்களுக்கு வராதவர் நீக்கப்படுவார்.",
+    "keywords": [
       "தகுதியிழப்பு",
-      "திவாலானவர்",
-      "குற்ற தண்டனை",
-      "பணியாளர்",
-      "thagudhiyizhappu"
-    ],
-    "text": "23. Disqualifications for membership: No person is eligible if he is an undischarged insolvent, convicted of an offence involving moral turpitude within 5 years, is a paid employee, or engages in competing business.",
-    "summary_en": "Insolvents, convicted persons (within 5 yrs), paid employees, and competitors are disqualified from membership.",
-    "summary_ta": "திவாலானவர், 5 ஆண்டுகளுக்குள் குற்றத் தண்டனை பெற்றவர், சங்க ஊழியர் மற்றும் போட்டி வணிகம் செய்வோர் உறுப்பினராக தகுதியற்றவர்கள்."
+      "நீக்கம்",
+      "disqualification",
+      "expulsion"
+    ]
   },
   {
-    "id": "sec_24_voting_rights",
+    "chunk_id": "sec_24_24",
     "section": "24",
-    "subSection": "24(1)-(3)",
-    "title": "Right of members to vote (உறுப்பினரின் வாக்குரிமை மற்றும் நிலுவைதாரர் தடை)",
-    "chapter": "Chapter III: Members Rights & Liabilities",
-    "topics": [
-      "voting",
-      "one vote",
-      "proxy ban",
-      "defaulter vote ban",
-      "casting vote",
-      "வாக்குரிமை",
-      "ஒரு வாக்கு",
-      "பதிலாள் வாக்கு தடை",
-      "நிலுவைதாரர் வாக்குரிமை தடை",
-      "vakku"
-    ],
-    "text": "24. Right to vote: Every member has one vote. Voting by proxy is prohibited. A member who is in default to the society in respect of any loan or transaction is not entitled to vote.",
-    "summary_en": "One member, one vote. No proxy voting. Loan defaulters cannot vote.",
-    "summary_ta": "ஒவ்வொரு உறுப்பினருக்கும் ஒரு வாக்கு. பதிலாள் (Proxy) வாக்கு கூடாது. கடன் நிலுவை வைத்துள்ள உறுப்பினர் வாக்களிக்க முடியாது."
+    "title": "Right of members to services by registered society and redress",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "24. Right of members to services by registered society and application for redress.__ (1) Every member is entitled to services under by-laws on application.\n (2) If service is refused or delayed, member may apply to Registrar for redress.\n (4) If refusal is unreasonable or discriminatory, Registrar may order board to render the service.",
+    "summary_ta": "சேவைகளைப் பெறும் உரிமை: உறுப்பினர்கள் சங்க சேவைகளைப் பெற உரிமை உண்டு; மறுக்கப்பட்டால் பதிவாளரிடம் மேல்முறையீடு செய்யலாம்.",
+    "keywords": [
+      "சேவை உரிமை",
+      "மனு",
+      "services",
+      "redress"
+    ]
   },
   {
-    "id": "sec_25_expulsion_member",
+    "chunk_id": "sec_25_25",
     "section": "25",
-    "subSection": "25(1)-(3)",
-    "title": "Expulsion of members (உறுப்பினரை சங்கத்திலிருந்து நீக்கும் முறை)",
-    "chapter": "Chapter III: Members Rights & Liabilities",
-    "topics": [
+    "title": "Expulsion",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "25. Expulsion.__ (1) A member acting adversely to society interests may be expelled by 2/3rd majority resolution of general body at special meeting.\n (2) Member must be given opportunity to make representation and expulsion requires approval of the Registrar.",
+    "summary_ta": "உறுப்பினரை நீக்குதல் (Expulsion): சங்க நலனுக்கு எதிராக செயல்படும் உறுப்பினரை 2/3 பெரும்பான்மை சிறப்பு பொதுக்குழு தீர்மானம் மற்றும் பதிவாளர் ஒப்புதலுடன் நீக்கலாம்.",
+    "keywords": [
+      "நீக்கம்",
       "expulsion",
-      "remove member",
-      "two thirds resolution",
-      "show cause notice",
-      "registrar approval",
-      "உறுப்பினர் நீக்கம்",
-      "நீக்குதல்",
-      "மூன்றில் இரண்டு பங்கு தீர்மானம்",
-      "விளக்க நோட்டீஸ்",
-      "பதிவாளர் ஒப்புதல்",
-      "neekkam"
-    ],
-    "text": "25. Expulsion of members: A member acting adversely to society interests may be expelled by a 2/3rds resolution at a general meeting after a reasonable opportunity to show cause. Expulsion takes effect only upon Registrar approval.",
-    "summary_en": "Expulsion requires 2/3 general body resolution, show-cause opportunity, and Registrar approval.",
-    "summary_ta": "சங்க நலனுக்கு எதிராக செயல்படும் உறுப்பினரை பொதுக்குழுவில் 2/3 பங்கு ஆதரவுடன், விளக்க நோட்டீஸ் தந்து, பதிவாளர் ஒப்புதலுடன் நீக்கலாம்."
+      "general body"
+    ]
   },
   {
-    "id": "sec_28_past_member_liability",
+    "chunk_id": "sec_26_26",
+    "section": "26",
+    "title": "Votes of members",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "26. Votes of members.__ (1) (a) One member, one vote principle.\n (b) Decisions by majority; president has casting vote in case of equality.\n (c) Every member has the right to vote in board elections. No proxy voting allowed.\n (4) Nominees of Government or financing bank have no right to vote or contest in board elections.",
+    "summary_ta": "வாக்குரிமை: ஒரு உறுப்பினருக்கு ஒரு வாக்கு மட்டுமே. தேர்தலில் நேரடி ரகசிய வாக்கெடுப்பு; பதிலி வாக்கு (Proxy) கிடையாது. அரசு நியமன உறுப்பினர்களுக்கு வாக்குரிமை இல்லை.",
+    "keywords": [
+      "ஒரு வாக்கு",
+      "வாக்குரிமை",
+      "one member one vote",
+      "no proxy"
+    ]
+  },
+  {
+    "chunk_id": "sec_27_27",
+    "section": "27",
+    "title": "Inspection of accounts by member",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "27. Inspection of accounts by member.__ Any member may during office hours inspect and have access to books, information, and accounts relating to their transactions with the society on payment of prescribed fee.",
+    "summary_ta": "கணக்குகளை பார்வையிடும் உரிமை: உறுப்பினர்கள் தங்கள் கணக்கு விவரங்கள் மற்றும் பதிவேடுகளை கட்டணம் செலுத்தி பார்வையிடலாம்.",
+    "keywords": [
+      "கணக்கு பார்வை",
+      "inspection of accounts"
+    ]
+  },
+  {
+    "chunk_id": "sec_28_28",
     "section": "28",
-    "subSection": "28(1)-(2)",
-    "title": "Liability of past member and deceased estate (முன்னாள் உறுப்பினர் மற்றும் வாரிசு பொறுப்பு)",
-    "chapter": "Chapter III: Members Rights & Liabilities",
-    "topics": [
-      "past member",
-      "deceased estate",
-      "liability period",
-      "2 years",
-      "debt recovery",
-      "முன்னாள் உறுப்பினர் பொறுப்பு",
-      "இறந்தவர் வாரிசு",
+    "title": "Restrictions on transfer of share or interest",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "28. Restrictions on transfer of share or interest.__ Transfer of share or interest is valid only if held for at least one year and made to another member with board approval.",
+    "summary_ta": "பங்கு மாற்றம் மீதான கட்டுப்பாடுகள்: குறைந்தபட்சம் 1 ஆண்டு வைத்திருந்த பிறகே பங்கை மற்றொரு உறுப்பினருக்கு மாற்ற முடியும்.",
+    "keywords": [
+      "பங்கு மாற்றம்",
+      "1 வருடம்",
+      "transfer of share"
+    ]
+  },
+  {
+    "chunk_id": "sec_29_29",
+    "section": "29",
+    "title": "Restrictions on withdrawal of share or interest",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "29. Restriction on withdrawal of share or interest by members.__ Share capital is not refundable unless held for at least two years, except on death, expulsion, removal, or permanent shifting of residence.",
+    "summary_ta": "பங்கு தொகையை திரும்பப் பெறுதல்: இறப்பு அல்லது வெளியேற்றம் தவிர மற்ற நிலைகளில் 2 ஆண்டுகள் பங்கு வைத்துள்ள பிறகே திரும்பப் பெற முடியும்.",
+    "keywords": [
+      "பங்கு திரும்ப பெறுதல்",
+      "2 ஆண்டுகள்",
+      "withdrawal of share"
+    ]
+  },
+  {
+    "chunk_id": "sec_30_30",
+    "section": "30",
+    "title": "Transfer of share or interest on death of member",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "30. Transfer of share or interest on death of member.__ On death of a member, society transfers share/interest to registered nominee, heir, or legal representative, or pays the value thereof according to rules.",
+    "summary_ta": "உறுப்பினர் இறப்பின் போது பங்கு மாற்றம்: வாரிசு அல்லது நியமிக்கப்பட்ட நபருக்கு பங்கு மாற்றம் செய்யப்படுதல் அல்லது மதிப்பு வழங்கப்படுதல்.",
+    "keywords": [
+      "வாரிசு",
+      "இறப்பு",
+      "nominee",
+      "death of member"
+    ]
+  },
+  {
+    "chunk_id": "sec_31_31",
+    "section": "31",
+    "title": "Liability of past member or estate of deceased member",
+    "chapter": "QUALIFICATIONS OF MEMBERS AND THEIR RIGHTS AND LIABILITIES",
+    "text": "31. Liability of past member or estate of deceased member.__ Past member or estate of deceased member remains liable for debts existing on date of cessation/death for a period of two years (extended during winding-up).",
+    "summary_ta": "முன்னாள் உறுப்பினர் பொறுப்பு: உறுப்பினர் பதவியிலிருந்து விலகிய அல்லது இறந்த தேதியிலிருந்து 2 ஆண்டுகளுக்கு சங்கக் கடன்களுக்கான பொறுப்பு நீடிக்கும்.",
+    "keywords": [
+      "முன்னாள் உறுப்பினர்",
       "2 ஆண்டுகள் பொறுப்பு",
-      "கடன் பொறுப்பு"
-    ],
-    "text": "28. Liability of past member: The liability of a past member or the estate of a deceased member for society debts continues for a period of two years from the date of cessation or death.",
-    "summary_en": "Liability for debts continues for 2 years after ceasing membership or death.",
-    "summary_ta": "உறுப்பினர் பதவி விலகிய பின்னரோ அல்லது இறந்த பின்னரோ 2 ஆண்டுகள் வரை சங்க கடன் பொறுப்பு தொடரும்."
+      "liability of past member"
+    ]
   },
   {
-    "id": "sec_32_agm_deadline",
+    "chunk_id": "sec_32_32",
     "section": "32",
-    "subSection": "32(1)",
-    "title": "Annual General Meeting 6 Months Deadline (ஆண்டு பொதுக்குழு கூட்டம் காலக்கெடு)",
-    "chapter": "Chapter IV: Management of Societies",
-    "topics": [
-      "agm",
-      "annual general meeting",
-      "general body",
-      "6 months deadline",
-      "financial year",
-      "பொதுக்குழு",
+    "title": "General meetings (AGM & SGM)",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "32. General meetings.__ (1) Ultimate authority vests in the general body.\n (2) Annual General Meeting (AGM) must be held within six months from the close of the financial year for budget approval, audit report consideration, net profit disposal, and activity appraisal.\n (3) Special General Meeting (SGM) can be called by board within 1 month upon requisition by 1/4th members, financing bank, or Registrar.\n (4) If board fails, Registrar may call the meeting himself.",
+    "summary_ta": "பொதுக்குழு கூட்டம் (AGM): நிதியாண்டு முடிந்த 6 மாதங்களுக்குள் ஆண்டு பொதுக்குழு கூட்டம் கட்டாயம் கூட்டப்பட வேண்டும். வரவு செலவு திட்டம் மற்றும் தணிக்கை அறிக்கை ஏற்பு.",
+    "keywords": [
       "ஆண்டு பொதுக்குழு",
-      "கூட்டம்",
-      "6 மாத காலக்கெடு",
-      "நிதி ஆண்டு",
-      "podhukkuzhu"
-    ],
-    "text": "32(1) The board shall convene an annual general meeting (AGM) of its members once in every financial year within a period of six months after the close of that year.",
-    "summary_en": "The Board must hold the AGM within 6 months after the end of each financial year.",
-    "summary_ta": "ஒவ்வொரு நிதியாண்டு முடிந்த 6 மாதங்களுக்குள் நிர்வாகக்குழு ஆண்டு பொதுக்குழு கூட்டத்தை நடத்த வேண்டும்."
+      "6 மாதங்கள்",
+      "AGM",
+      "budget",
+      "audit report"
+    ]
   },
   {
-    "id": "sec_32_agm_business_special",
-    "section": "32",
-    "subSection": "32(2)-(3)",
-    "title": "AGM Agenda & Special General Meeting (பொதுக்குழு அலுவல்கள் மற்றும் சிறப்பு பொதுக்குழு)",
-    "chapter": "Chapter IV: Management of Societies",
-    "topics": [
-      "agm business",
-      "budget approval",
-      "audit review",
-      "defaulters list",
-      "special general meeting",
-      "one fifth requisition",
-      "அலுவல்கள்",
-      "பட்ஜெட் ஒப்புதல்",
-      "தணிக்கை அறிக்கை ஆய்வு",
-      "சிறப்பு பொதுக்குழு",
-      "1/5 உறுப்பினர் கோரிக்கை"
-    ],
-    "text": "32(2)-(3) AGM agenda includes budget approval, audit report review, net profit disposal, and overdue debts. Special General Meeting must be convened within 1 month on requisition by 1/5th of members or Registrar.",
-    "summary_en": "AGM approves budget, audit, and profit disposal. Special meetings are called on 1/5th member requisition.",
-    "summary_ta": "பொதுக்குழுவில் பட்ஜெட், தணிக்கை அறிக்கை, லாப பங்கீடு மற்றும் நிலுவை கடன்கள் ஆய்வு செய்யப்படும். 1/5 பங்கு உறுப்பினர்கள் கோரினால் 1 மாதத்தில் சிறப்பு கூட்டம் கூட்டப்பட வேண்டும்."
-  },
-  {
-    "id": "sec_33_board_election_tenure",
+    "chunk_id": "sec_33_33",
     "section": "33",
-    "subSection": "33(1)-(4)",
-    "title": "Board Management, 5 Year Tenure & Election Commission (நிர்வாகக்குழு தேர்தல் மற்றும் 5 ஆண்டு பதவிக்காலம்)",
-    "chapter": "Chapter IV: Management of Societies",
-    "topics": [
-      "board of directors",
-      "election",
-      "5 years tenure",
-      "election commission",
-      "reservation",
-      "women sc st",
+    "title": "Constitution and meetings of the board",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "33. Constitution and meetings of the board.__ (1) Management vests in the board. 30% reservation for women and 18% reservation for SC/ST. Board may co-opt up to 2 experts and include functional directors (up to 9).\n (3) Size of board: 7 to 21 members for primary societies; 11 to 21 for apex/central societies.\n (10) Term of office for elected board members is five years.\n (11) Elections conducted by Tamil Nadu State Co-operative Societies Election Commission before expiry of term.\n (13) Ordinary board meetings must be held at least once every three months with 3 clear days' notice.",
+    "summary_ta": "நிர்வாகக்குழு அமைப்பு: இயக்குநர்கள் பதவிக்காலம் 5 ஆண்டுகள். பெண்களுக்கு 30% மற்றும் ஆதிதிராவிடர்/பழங்குடியினருக்கு 18% இடஒதுக்கீடு. தேர்தல் ஆணையத்தால் தேர்தல்.",
+    "keywords": [
       "நிர்வாகக்குழு",
-      "தேர்தல்",
-      "5 ஆண்டுகள் பதவி",
+      "5 ஆண்டுகள்",
+      "30% பெண்கள்",
+      "18% SC/ST",
+      "board of directors",
+      "reservation",
+      "election"
+    ]
+  },
+  {
+    "chunk_id": "sec_33-A_34",
+    "section": "33-A",
+    "title": "Tamil Nadu State Co-operative Societies Election Commission",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "33-A. Tamil Nadu State Co-operative Societies Election Commission.__ Superintendence, direction, and control of electoral rolls and election conduct for cooperative societies vests in the Election Commission headed by Commissioner (rank of Secretary to Government, 5-year term up to age 65).",
+    "summary_ta": "தமிழ்நாடு கூட்டுறவு சங்கங்களின் தேர்தல் ஆணையம்: கூட்டுறவு சங்கங்களின் வாக்காளர் பட்டியல் தயாரிப்பு மற்றும் தேர்தல்களை நடத்தும் தன்னாட்சி அமைப்பு.",
+    "keywords": [
       "தேர்தல் ஆணையம்",
-      "இடஒதுக்கீடு",
-      "மகளிர் தாழ்த்தப்பட்டோர்",
-      "therdhal"
-    ],
-    "text": "33. Board and Election: The management vests in a board. The term of office is five years. Elections are conducted by the TN State Cooperative Societies Election Commission with reservations for SC/ST and Women.",
-    "summary_en": "Board tenure is 5 years; elections are conducted by the Cooperative Election Commission with reservations.",
-    "summary_ta": "நிர்வாகக்குழுவின் பதவிக்காலம் 5 ஆண்டுகள். தேர்தலை கூட்டுறவு தேர்தல் ஆணையம் நடத்தும்; மகளிர் மற்றும் SC/ST இடஒதுக்கீடு உண்டு."
+      "election commission"
+    ]
   },
   {
-    "id": "sec_34_board_disqualifications",
+    "chunk_id": "sec_34_35",
     "section": "34",
-    "subSection": "34(1)",
-    "title": "Disqualifications for Board Members (நிர்வாகக்குழு உறுப்பினர் தகுதியிழப்பு)",
-    "chapter": "Chapter IV: Management of Societies",
-    "topics": [
-      "board disqualification",
-      "loan defaulter director",
-      "interest in contract",
-      "director eligibility",
+    "title": "Disqualifications for membership of board",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "34. Disqualifications for membership of board.__ (1) Ineligible if: loan defaulter exceeding 3 months, facing recovery proceedings under Section 118/120/144, past employee/auditor within 2 years, convicted of offences, removed under Section 36, or illiterate (exempt for visually/physically impaired).\n (2) Ceases office if: incurs disqualification, ceases membership, or absents from 4 consecutive board meetings or 3 months continuously.\n (4) Cannot be board member in more than 5 societies or more than 2 apex/central societies, or president of more than 3 societies.",
+    "summary_ta": "இயக்குநர்கள் தகுதியிழப்பு: 3 மாதங்களுக்கு மேல் கடன் பாக்கி வைத்திருப்பவர், தண்டனை பெற்றவர், படிக்க எழுதத் தெரியாதவர் தகுதியற்றவர். தொடர்ந்து 4 கூட்டங்களுக்கு வராதவர் பதவி இழப்பார்.",
+    "keywords": [
       "இயக்குநர் தகுதியிழப்பு",
-      "கடன் நிலுவை இயக்குநர்",
-      "ஒப்பந்த ஆர்வம்",
-      "இயக்குநர் பதவி நீக்கம்",
-      "iyakkunar"
-    ],
-    "text": "34. Disqualifications for board: A person cannot be elected/continue as director if he is a loan defaulter to any cooperative society, holds a paid office of profit, has a direct/indirect interest in contracts, or has moral turpitude conviction.",
-    "summary_en": "Loan defaulters, employees, and those interested in contracts cannot serve as board members.",
-    "summary_ta": "கூட்டுறவு சங்கத்தில் கடன் நிலுவை வைத்திருப்பவர், ஊதியம் பெறும் பணியாளர் அல்லது ஒப்பந்தங்களில் ஆர்வம் உள்ளவர் இயக்குநர் குழுவில் இருக்க முடியாது."
+      "கடன் பாக்கி",
+      "disqualification of director",
+      "loan defaulter"
+    ]
   },
   {
-    "id": "sec_36_board_removal_by_registrar",
+    "chunk_id": "sec_35_36",
+    "section": "35",
+    "title": "Members of the board not to hold certain financial interests",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "35. Members of the board not to hold certain financial interests.__ Board members must divest from personal contracts, sales, or business transactions with the society within 3 months.",
+    "summary_ta": "நிர்வாகக்குழு உறுப்பினர்களின் நிதி நலன்கள்: சங்கத்துடன் தனிப்பட்ட ஒப்பந்தங்கள் அல்லது வணிகம் செய்ய தடை.",
+    "keywords": [
+      "நிதி நலன்",
+      "தடை",
+      "financial interest"
+    ]
+  },
+  {
+    "chunk_id": "sec_36_37",
     "section": "36",
-    "subSection": "36(1)-(2)",
-    "title": "Removal of Board Member by Registrar (பதிவாளரால் இயக்குநர் பதவி நீக்கம்)",
-    "chapter": "Chapter IV: Management of Societies",
-    "topics": [
-      "director removal",
-      "negligence",
-      "prejudicial act",
-      "5 year ban",
-      "பதிவாளர் பதவி நீக்கம்",
-      "இயக்குநர் நீக்கம்",
-      "கவனக்குறைவு",
-      "5 ஆண்டுகள் தடை"
-    ],
-    "text": "36. Removal of board members: Registrar may remove a board member guilty of persistent negligence or acts prejudicial to the society after show cause notice. Removed person is disqualified for 5 years.",
-    "summary_en": "Registrar can remove negligent board members, disqualifying them for 5 years.",
-    "summary_ta": "தொடர் கவனக்குறைவு அல்லது சங்க நலனுக்கு விரோதமாக செயல்படும் இயக்குநரை பதிவாளர் நீக்கலாம்; அவர் 5 ஆண்டுகளுக்கு தேர்தலில் நிற்க முடியாது."
+    "title": "Disqualification and removal by Registrar",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "36. Disqualification and removal.__ Where audit, inquiry, or inspection discloses misappropriation, breach of trust, gross negligence, or mismanagement, Registrar may permanently disqualify and remove the board member after giving opportunity to make representation.",
+    "summary_ta": "இயக்குநரை பதிவாளர் பதவி நீக்கம் செய்தல்: நிதி கையாடல், நம்பிக்கை மோசடி அல்லது கடுமையான அலட்சியம் செய்த இயக்குநரை பதிவாளர் நிரந்தரமாக தகுதிநீக்கம் செய்யலாம்.",
+    "keywords": [
+      "பதவி நீக்கம்",
+      "கையாடல்",
+      "removal of director",
+      "misappropriation"
+    ]
   },
   {
-    "id": "sec_40_crop_first_charge",
+    "chunk_id": "sec_36-A_38",
+    "section": "36-A",
+    "title": "Qualifications and disqualifications for co-option of members",
+    "chapter": "MANAGEMENT OF REGISTERED SOCIETIES",
+    "text": "36-A. Qualifications and disqualifications for co-option of members to board.__ Same qualifications and disqualifications applying to elected directors apply to co-opted directors.",
+    "summary_ta": "இணைத்துக்கொள்ளப்படும் இயக்குநர்கள் (Co-opted Directors) தகுதிகள்.",
+    "keywords": [
+      "இணைப்பு இயக்குநர்",
+      "co-opted"
+    ]
+  },
+  {
+    "chunk_id": "sec_37_39",
+    "section": "37",
+    "title": "Address of Societies",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "37. Address of Societies.__ Every registered society shall have a registered address and send notice of change within 30 days.",
+    "summary_ta": "சங்கத்தின் முகவரி: பதிவு செய்யப்பட்ட அலுவலக முகவரி மற்றும் முகவரி மாற்ற அறிவிப்பு 30 நாட்களுக்குள்.",
+    "keywords": [
+      "முகவரி",
+      "address"
+    ]
+  },
+  {
+    "chunk_id": "sec_38_40",
+    "section": "38",
+    "title": "Copy of Act, rules and by-laws to be open to inspection",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "38. Copy of Act, rules and by-laws to be open to inspection.__ Free inspection of Act, rules, by-laws, and member register at registered address during reasonable hours.",
+    "summary_ta": "சட்டம் மற்றும் விதிகளைப் பார்வையிடல்: உறுப்பினர்கள் அலுவலகத்தில் இலவசமாக பார்வையிடலாம்.",
+    "keywords": [
+      "பார்வை",
+      "open to inspection"
+    ]
+  },
+  {
+    "chunk_id": "sec_39_41",
+    "section": "39",
+    "title": "Societies to be bodies corporate",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "39. Societies to be bodies corporate.__ Registered societies are corporate bodies with perpetual succession, common seal, power to hold property, sue and be sued.",
+    "summary_ta": "சங்கம் சட்டபூர்வ நபர் (Body Corporate): சங்கம் சட்டப்பூர்வ உரிமை கொண்ட அமைப்பு; வழக்கு தொடரவும் சொத்துக்களை வைத்திருக்கவும் அதிகாரம் உண்டு.",
+    "keywords": [
+      "சட்டபூர்வ நபர்",
+      "body corporate"
+    ]
+  },
+  {
+    "chunk_id": "sec_40_42",
     "section": "40",
-    "subSection": "40(1)",
-    "title": "First Charge on Crops and Movable Assets (பயிர்கள் மற்றும் விளைபொருட்கள் மீது முதன்மை உரிமை)",
-    "chapter": "Chapter V: Privileges of Societies",
-    "topics": [
+    "title": "First charge of society on crops and produce",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "40. First charge of society.__ (1) Society has first charge for dues upon crops, agricultural produce, cattle, implements, machinery, raw materials, or mortgaged property of debtor member.\n (2) Property under charge cannot be sold or transferred without society's written consent; unauthorized transfers are null and void.",
+    "summary_ta": "விளைபொருட்கள் மீதான சங்கத்தின் முதல் பற்றுரிமை (First Charge): கடனுக்காக உறுப்பினரின் பயிர்கள் மற்றும் வேளாண் விளைபொருட்கள் மீது சங்கத்திற்கு முதல் உரிமை உண்டு.",
+    "keywords": [
+      "முதல் பற்றுரிமை",
+      "பயிர்கள்",
       "first charge",
-      "crop loan",
-      "agricultural produce",
-      "cattle implements",
-      "debt priority",
-      "முதன்மை உரிமை",
-      "பயிர்க்கடன்",
-      "விளைபொருள் உரிமை",
-      "முன்னுரிமை",
-      "payir kadan"
-    ],
-    "text": "40. First charge on crops: Outstanding loan to a registered society is a first charge upon crops raised with the loan and upon cattle/agricultural implements purchased with society funds, subject to land revenue.",
-    "summary_en": "PACS has a first charge over crops and implements financed by the society loan.",
-    "summary_ta": "சங்க கடன் மூலம் பயிரிடப்பட்ட பயிர்கள் மற்றும் வாங்கப்பட்ட உபகரணங்கள் மீது சங்கத்திற்கு முதன்மை உரிமை (First Charge) உண்டு."
+      "crops",
+      "produce"
+    ]
   },
   {
-    "id": "sec_41_immovable_property_charge",
+    "chunk_id": "sec_41_43",
     "section": "41",
-    "subSection": "41(1)-(2)",
-    "title": "Charge on Immovable Property for PACS Loans (PACS விவசாய கடன் நிலத்தின் மீதான பிணைய உரிமை)",
-    "chapter": "Chapter V: Privileges of Societies",
-    "topics": [
-      "immovable property charge",
-      "land mortgage declaration",
-      "pacs loan security",
-      "priority charge",
-      "நில உரிமை பிணையம்",
-      "விவசாய கடன் நிலம்",
-      "பத்திரப்பதிவு முன்னுரிமை",
-      "அடமானம்",
-      "nilam kadan"
-    ],
-    "text": "41. Charge on immovable property: A borrowing member executes a declaration creating a charge on immovable property in favor of PACS. This charge takes priority over any subsequent sale, transfer, or mortgage.",
-    "summary_en": "Declaration creates a priority legal charge on member's land for PACS loans over subsequent transfers.",
-    "summary_ta": "PACS கடன் பெறும் உறுப்பினர் வழங்கும் நில உறுதிமொழி சங்கத்திற்கு சட்டப்பூர்வ முன்னுரிமை பிணைய உரிமையை உருவாக்குகிறது."
+    "title": "Charge of immovable property of borrowing members (GePNIC/Sub-Registrar)",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "41. Charge of immovable property of members borrowing loans.__ Member creates written charge over land/immovable property for loans. Declaration is registered with Sub-Registrar and operates as registered encumbrance.",
+    "summary_ta": "நிலம் மற்றும் அசையா சொத்துக்கள் மீதான சுமை பதிவு: சார்-பதிவாளர் அலுவலகத்தில் கடன் சுமை பதிவு செய்யப்படுதல்.",
+    "keywords": [
+      "சார்-பதிவாளர்",
+      "சுமை பதிவு",
+      "charge on land",
+      "sub-registrar"
+    ]
   },
   {
-    "id": "sec_42_salary_deduction_agreement",
+    "chunk_id": "sec_42_44",
     "section": "42",
-    "subSection": "42(1)-(2)",
-    "title": "Salary Deduction by Employer for Loan Repayment (சம்பள பிடித்தம் மூலம் கடன் செலுத்தும் ஒப்பந்தம்)",
-    "chapter": "Chapter V: Privileges of Societies",
-    "topics": [
-      "salary deduction",
-      "wages deduction",
-      "employer agreement",
-      "7 days remittance",
+    "title": "Charge and set off in respect of shares or interest of member",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "42. Charge and set off in respect of shares or interest of member.__ Society has statutory charge and right of set-off on shares, deposits, dividends, and bonuses against debts due from member.",
+    "summary_ta": "பங்கு மற்றும் வைப்புத்தொகை மீதான பற்றுரிமை: உறுப்பினர் செலுத்த வேண்டிய கடனுக்கு அவருடைய பங்கு மற்றும் வைப்புத்தொகையை ஈடு செய்யும் உரிமை.",
+    "keywords": [
+      "ஈடுசெய்தல்",
+      "பற்றுரிமை",
+      "set off",
+      "charge on shares"
+    ]
+  },
+  {
+    "chunk_id": "sec_43_45",
+    "section": "43",
+    "title": "Financing bank not to have claim on certain funds",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "43. Financing bank not to have a claim on certain sums of money.__ Financing banks cannot set off reserve fund, provident fund (Sec 78), or gratuity fund (Sec 79) against society debts.",
+    "summary_ta": "மத்திய வங்கியின் வரம்பு: வருங்கால வைப்பு நிதி அல்லது பணிக்கொடை நிதியை கடன் பாக்கிக்காக ஈடு செய்ய முடியாது.",
+    "keywords": [
+      "ஈடு செய்ய தடை",
+      "financing bank"
+    ]
+  },
+  {
+    "chunk_id": "sec_44_46",
+    "section": "44",
+    "title": "Shares, interest, thrift deposit not liable to attachment",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "44. Shares, interest, etc., not liable to attachment.__ Member share capital, thrift deposit, PF, and gratuity funds are exempt from court attachment or insolvency receiver claims.",
+    "summary_ta": "நீதிமன்ற ஜப்தியிலிருந்து விலக்கு: பங்குத் தொகை, சேமிப்பு வைப்புத்தொகை, PF மற்றும் கிராஜுவிட்டி நீதிமன்ற ஜப்திக்கு உட்படாது.",
+    "keywords": [
+      "ஜப்தி விலக்கு",
+      "immunity from attachment",
+      "thrift deposit"
+    ]
+  },
+  {
+    "chunk_id": "sec_45_47",
+    "section": "45",
+    "title": "Reserve fund and bad debt reserve not liable to attachment",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "45. Reserve fund and bad debt reserve not liable to attachment.__ Reserve fund and bad debt reserve invested under Section 68 are exempt from court attachment.",
+    "summary_ta": "காப்பு நிதி ஜப்தி விலக்கு: சங்கத்தின் காப்பு நிதி நீதிமன்ற ஜப்தியிலிருந்து பாதுகாக்கப்படுகிறது.",
+    "keywords": [
+      "காப்பு நிதி",
+      "reserve fund"
+    ]
+  },
+  {
+    "chunk_id": "sec_46_48",
+    "section": "46",
+    "title": "Register of members as prima facie evidence",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "46. Register of members.__ Member register is prima facie evidence of dates of admission and cessation of membership.",
+    "summary_ta": "உறுப்பினர் பதிவேடு சான்று.",
+    "keywords": [
+      "பதிவேடு",
+      "register of members"
+    ]
+  },
+  {
+    "chunk_id": "sec_47_49",
+    "section": "47",
+    "title": "Proof of entries in societies’ books",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "47. Proof of entries in societies’ books.__ Certified copies of entries in regularly kept books are admissible in court as prima facie evidence.",
+    "summary_ta": "சங்க கணக்கு புத்தகங்களின் பதிவுகள் நீதிமன்ற சான்றாக ஏற்றுக்கொள்ளப்படுதல்.",
+    "keywords": [
+      "நீதிமன்ற சான்று",
+      "proof of entries"
+    ]
+  },
+  {
+    "chunk_id": "sec_48_50",
+    "section": "48",
+    "title": "Deduction from salary, wages or gratuity for society dues",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "48. Deduction from salary, wages or gratuity.__ Employers/disbursing officers must deduct agreed loan instalments from salary or gratuity and remit to society within 14 days. Failure punishable with fine.",
+    "summary_ta": "சம்பளத்திலிருந்து கடன் பிடித்தம்: சங்கம் கோரினால் முதலாளி/அரசு அதிகாரி சம்பளத்தில் பிடித்தம் செய்து 14 நாட்களுக்குள் சங்கத்திற்கு செலுத்த வேண்டும்.",
+    "keywords": [
       "சம்பள பிடித்தம்",
-      "ஊதிய பிடித்தம்",
-      "வேலை அளிப்பவர் கடமை",
-      "7 நாட்களில் செலுத்துதல்",
-      "sambala piditham"
-    ],
-    "text": "42. Deduction from salary: A member may authorize his employer to deduct loan installments from salary and remit to society within seven days of deduction upon society requisition.",
-    "summary_en": "Employer is legally bound to deduct society dues from employee salary and remit within 7 days.",
-    "summary_ta": "உறுப்பினரின் ஒப்புதலின்படி வேலை அளிப்பவர் சம்பளத்தில் கடன் தொகையை பிடித்து 7 நாட்களுக்குள் சங்கத்திற்கு செலுத்த வேண்டும்."
+      "14 நாட்கள்",
+      "salary deduction",
+      "14 days"
+    ]
   },
   {
-    "id": "sec_69_loan_restrictions",
-    "section": "69",
-    "subSection": "69(1)-(2)",
-    "title": "Restriction on Loans (கடன் வழங்குவதற்கான கட்டுப்பாடுகள் மற்றும் விதிகள்)",
-    "chapter": "Chapter VII: Property & Funds",
-    "topics": [
-      "loan restrictions",
-      "members only",
-      "gold loan",
-      "produce security",
+    "chunk_id": "sec_49_51",
+    "section": "49",
+    "title": "Exemption from compulsory registration of share/debenture instruments",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "49. Exemption from compulsory registration of instruments relating to shares and debentures.__ Shares and debentures of registered societies are exempt from compulsory registration under Registration Act.",
+    "summary_ta": "பங்குகள் மற்றும் கடன் பத்திரங்களுக்கு கட்டாய பதிவு விலக்கு.",
+    "keywords": [
+      "பதிவு விலக்கு",
+      "exemption from registration"
+    ]
+  },
+  {
+    "chunk_id": "sec_50_52",
+    "section": "50",
+    "title": "Recovery of moneys due as arrears of land revenue",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "50. Recovery of moneys due to registered society as arrears of land revenue.__ Society dues recoverable under Revenue Recovery Act, 1864; Registrar has powers of District Collector.",
+    "summary_ta": "நில வருவாய் நிலுவை போல சங்கக் கடன்களை வசூலித்தல்: பதிவாளருக்கு மாவட்ட ஆட்சியர் அதிகாரம் உண்டு.",
+    "keywords": [
+      "வருவாய் வசூல்",
+      "ஆட்சியர் அதிகாரம்",
+      "arrears of land revenue"
+    ]
+  },
+  {
+    "chunk_id": "sec_51_53",
+    "section": "51",
+    "title": "Powers to exempt from stamp duty and registration fee",
+    "chapter": "DUTIES AND PRIVILEGES OF REGISTERED SOCIETIES",
+    "text": "51. Powers to exempt from stamp duty and registration fee.__ Government may remit stamp duty and registration fees on instruments executed by or on behalf of cooperative societies.",
+    "summary_ta": "முத்திரைத்தாள் கட்டணம் மற்றும் பதிவு கட்டண விலக்கு.",
+    "keywords": [
+      "முத்திரைத்தாள் விலக்கு",
+      "stamp duty exemption"
+    ]
+  },
+  {
+    "chunk_id": "sec_52_54",
+    "section": "52",
+    "title": "Investment by Government in registered societies",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "52. Investment by Government in registered societies.__ Government may subscribe directly to share capital of registered societies.",
+    "summary_ta": "சங்கங்களில் அரசு பங்கு முதலீடு.",
+    "keywords": [
+      "அரசு பங்கு",
+      "government investment"
+    ]
+  },
+  {
+    "chunk_id": "sec_53_55",
+    "section": "53",
+    "title": "Provision of funds by Government to apex society",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "53. Provision of funds by Government to apex society.__ Government provides funds to apex societies to purchase shares in other registered societies.",
+    "summary_ta": "தலைமை சங்கத்திற்கு அரசு நிதி வழங்குதல்.",
+    "keywords": [
+      "அரசு நிதி",
+      "apex funds"
+    ]
+  },
+  {
+    "chunk_id": "sec_54_56",
+    "section": "54",
+    "title": "Partnership of Government with apex society (Principal Fund)",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "54. Partnership of Government with apex society.__ Apex societies establish 'Principal State Partnership Fund' to invest in central/primary societies.",
+    "summary_ta": "அரசு கூட்டு நிதி (Principal State Partnership Fund).",
+    "keywords": [
+      "கூட்டு நிதி",
+      "partnership fund"
+    ]
+  },
+  {
+    "chunk_id": "sec_55_57",
+    "section": "55",
+    "title": "Subsidiary State Partnership Fund",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "55. Subsidiary State Partnership Fund.__ Central societies establish 'Subsidiary State Partnership Fund' from apex funds to buy shares in primary societies.",
+    "summary_ta": "துணை கூட்டு நிதி (Subsidiary State Partnership Fund).",
+    "keywords": [
+      "துணை நிதி",
+      "subsidiary fund"
+    ]
+  },
+  {
+    "chunk_id": "sec_64_58",
+    "section": "64",
+    "title": "Other forms of State aid to registered societies",
+    "chapter": "STATE AID TO REGISTERED SOCIETIES",
+    "text": "64. Other forms of State aid to registered societies.__ Government may grant loans, advances, guarantees on debentures, deposits, or share capital, and provide subsidies.",
+    "summary_ta": "அரசு உதவி: கடன்கள், உத்தரவாதங்கள், மானியங்கள் மற்றும் நிதி உதவிகள்.",
+    "keywords": [
+      "அரசு உதவி",
+      "மானியம்",
+      "state aid",
+      "subsidies"
+    ]
+  },
+  {
+    "chunk_id": "sec_66_59",
+    "section": "66",
+    "title": "Restrictions on loans",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "66. Restrictions on loans.__ (1) Loans only to members (or other societies/employees with sanction).\n (2) Loans permitted on security of deposits, jewel/gold loans, and bill discounting.",
+    "summary_ta": "கடன் கட்டுப்பாடுகள்: உறுப்பினர்களுக்கு மட்டுமே கடன் வழங்கப்பட வேண்டும்; நகைக்கடன் மற்றும் வைப்புத்தொகை கடன்கள் அனுமதிக்கப்படும்.",
+    "keywords": [
       "கடன் கட்டுப்பாடு",
-      "உறுப்பினர்களுக்கு மட்டுமே கடன்",
-      "தங்க நகை கடன்",
-      "விளைபொருள் அடமானம்",
-      "kadan vidhigal"
-    ],
-    "text": "69. Restriction on loans: A society shall not lend to non-members without Registrar sanction. Loans on movable property are restricted to agricultural produce and gold ornaments.",
-    "summary_en": "Loans can only be made to members; movable security is restricted to produce and gold.",
-    "summary_ta": "உறுப்பினர்கள் அல்லாதோருக்கு கடன் வழங்கக்கூடாது. அசையும் சொத்துக்களில் விளைபொருட்கள் மற்றும் தங்க நகைகளுக்கு மட்டுமே கடன் தரலாம்."
+      "நகைக்கடன்",
+      "loans",
+      "jewel loans"
+    ]
   },
   {
-    "id": "sec_72_net_profits_reserve_fund",
+    "chunk_id": "sec_67_60",
+    "section": "67",
+    "title": "Restrictions on borrowings",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "67. Restrictions on borrowings.__ Societies receive deposits and loans only within limits specified in by-laws and rules.",
+    "summary_ta": "சங்கங்கள் கடன் வாங்குவதற்கான கட்டுப்பாடுகள்: துணைவிதிகளுக்கு உட்பட்டு மட்டுமே கடன் வாங்க முடியும்.",
+    "keywords": [
+      "கடன் வாங்குதல்",
+      "borrowings"
+    ]
+  },
+  {
+    "chunk_id": "sec_68_61",
+    "section": "68",
+    "title": "Investment of funds",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "68. Investment of funds.__ Funds may be invested in financing banks, cooperative banks, government trust securities under Indian Trusts Act, or approved modes.",
+    "summary_ta": "சங்க நிதியை முதலீடு செய்தல்: மத்திய வங்கிகள், கூட்டுறவு வங்கிகள் அல்லது அரசு பத்திரங்களில் முதலீடு செய்தல்.",
+    "keywords": [
+      "முதலீடு",
+      "investment of funds"
+    ]
+  },
+  {
+    "chunk_id": "sec_69_62",
+    "section": "69",
+    "title": "Funds not to be divided among members",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "69. Funds not to be divided among members.__ No division of funds except net profits declared by Registrar. Honorarium to board capped at 5% of current profit.",
+    "summary_ta": "நிதியை உறுப்பினர்களுக்கு பிரித்தளிக்க தடை: நிகர லாபத்தைத் தவிர பிற நிதியை போனஸ் அல்லது ஈவுத்தொகையாக வழங்க முடியாது.",
+    "keywords": [
+      "லாப பகிர்வு தடை",
+      "funds division"
+    ]
+  },
+  {
+    "chunk_id": "sec_70_63",
+    "section": "70",
+    "title": "Expenditure from funds",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "70. Expenditure from funds.__ Society funds can only be spent for management/business purposes or approved advertisements.",
+    "summary_ta": "சங்க நிதியிலிருந்து செலவினங்கள்: சங்க நோக்கங்களுக்கு மட்டுமே செலவிட வேண்டும்.",
+    "keywords": [
+      "செலவினங்கள்",
+      "expenditure"
+    ]
+  },
+  {
+    "chunk_id": "sec_71_64",
+    "section": "71",
+    "title": "Properties not to be misused",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "71. Properties not to be misused.__ Movable and immovable property of society must be used strictly in accordance with Act, rules, and by-laws.",
+    "summary_ta": "சங்க சொத்துக்களை தவறாக பயன்படுத்த தடை.",
+    "keywords": [
+      "சொத்து பாதுகாப்பு",
+      "property misuse"
+    ]
+  },
+  {
+    "chunk_id": "sec_72_65",
     "section": "72",
-    "subSection": "72(1)-(2)",
-    "title": "Disposal of Net Profits & 25% Reserve Fund (நிகர லாப பகிர்வு மற்றும் 25% கையிருப்பு நிதி)",
-    "chapter": "Chapter VII: Property & Funds",
-    "topics": [
-      "net profits",
-      "reserve fund 25 percent",
-      "education fund",
-      "dividend",
-      "stabilization fund",
+    "title": "Disposal of net profits (Statutory Allocations)",
+    "chapter": "PROPERTY AND FUNDS OF REGISTERED SOCIETIES",
+    "text": "72. Disposal of net profits.__ Statutory allocations from net profit:\n (1) 3% to Co-operative Research & Dev Fund; 2% to Co-operative Education Fund;\n (2) Balance appropriated: Reserve Fund (minimum 20%), Agricultural Credit Stabilization Fund (15% for PACS), Board Honorarium (max 10%), Dividend to members (max 14%), Employee bonus, Common Good Fund (max 10%), remainder to Reserve Fund.",
+    "summary_ta": "நிகர லாப ஒதுக்கீடு: காப்பு நிதி 20%, வேளாண் கடன் உறுதி நிதி 15%, கூட்டுறவு ஆராய்ச்சி நிதி 3%, கல்வி நிதி 2%, ஈவுத்தொகை அதிகபட்சம் 14%, பொதுநல நிதி 10%.",
+    "keywords": [
       "நிகர லாபம்",
-      "25 சதவீதம் கையிருப்பு நிதி",
-      "கூட்டுறவு கல்வி நிதி",
-      "பங்கு ஈவுத்தொகை",
-      "லாப பகிர்வு",
-      "laabam"
-    ],
-    "text": "72. Disposal of net profits: Out of annual net profits: at least 25% must be transferred to Reserve Fund, 3% to Cooperative Education Fund, and the balance for member dividend/common good funds.",
-    "summary_en": "25% of net profits must go to Reserve Fund, 3% to Education Fund before paying dividends.",
-    "summary_ta": "சங்கத்தின் ஆண்டு நிகர லாபத்தில் குறைந்தது 25% கையிருப்பு நிதிக்கும், 3% கூட்டுறவு கல்வி நிதிக்கும் மாற்றப்பட வேண்டும்."
+      "20% காப்பு நிதி",
+      "15% கடன் உறுதி நிதி",
+      "14% ஈவுத்தொகை",
+      "net profit disposal",
+      "reserve fund",
+      "dividend"
+    ]
   },
   {
-    "id": "sec_73_staff_service_rules",
+    "chunk_id": "sec_73_66",
     "section": "73",
-    "subSection": "73(1)-(2)",
-    "title": "Appointment of Paid Officers and Staff (பணியாளர்கள் நியமனம் மற்றும் சேவை விதிகள்)",
-    "chapter": "Chapter VIII: Paid Officers and Servants",
-    "topics": [
-      "paid officers",
-      "staff recruitment",
-      "service rules",
-      "scale of pay",
+    "title": "Appointment of paid officers and servants of registered society",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "73. Appointment of paid officers and servants.__ Society appoints staff based on prescribed cadre strength, qualifications, and disciplinary service conditions.",
+    "summary_ta": "ஊழியர்கள் மற்றும் பணியாளர்கள் நியமனம்: அனுமதிக்கப்பட்ட பணியிடங்கள் மற்றும் கல்வி தகுதிகளின் அடிப்படையில் நியமனம்.",
+    "keywords": [
       "பணியாளர் நியமனம்",
-      "சேவை விதிகள்",
-      "ஊதிய விகிதம்",
-      "செயலாளர் நியமனம்",
-      "paniyalargal"
-    ],
-    "text": "73. Appointment of staff: Societies may appoint paid officers and servants according to service rules approved by the Registrar governing recruitment, qualifications, pay scales, and disciplinary actions.",
-    "summary_en": "Staff appointments and pay scales must follow Registrar-approved service rules.",
-    "summary_ta": "சங்கப் பணியாளர்கள் மற்றும் அதிகாரிகள் நியமனம் பதிவாளரால் அங்கீகரிக்கப்பட்ட சேவை விதிகளின்படியே அமைய வேண்டும்."
+      "paid officers",
+      "appointment"
+    ]
   },
   {
-    "id": "sec_80_audit_procedure_deadline",
+    "chunk_id": "sec_74_67",
+    "section": "74",
+    "title": "Recruitment Bureaus",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "74. Recruitment Bureaus.__ State and district Recruitment Bureaus constituted for recruiting cooperative staff.",
+    "summary_ta": "பணியாளர் தேர்வு முகமைகள் (Recruitment Bureaus).",
+    "keywords": [
+      "தேர்வு முகமை",
+      "recruitment bureau"
+    ]
+  },
+  {
+    "chunk_id": "sec_75_68",
+    "section": "75",
+    "title": "Constitution of common cadre of service",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "75. Constitution of common cadre of service.__ Common cadre for key posts (Secretaries, Managers, Accountants). Competent authority exercises recruitment, transfer, and disciplinary control. Appeals within 60 days.",
+    "summary_ta": "பொது பணியாளர் கட்டமைப்பு (Common Cadre): செயலாளர்கள், மேலாளர்கள் பணியிடங்களுக்கான அதிகார அமைப்பும் கட்டுப்பாடும்.",
+    "keywords": [
+      "பொது பணியாளர்",
+      "செயலாளர்",
+      "common cadre",
+      "secretary"
+    ]
+  },
+  {
+    "chunk_id": "sec_76_69",
+    "section": "76",
+    "title": "Suspension of paid officer or servant",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "76. Suspension of a paid Officer or servant.__ Registrar may direct suspension of employee facing prima facie evidence of misappropriation or moral turpitude.\n 76-A. Suspension of President or Vice-President: Registrar may suspend President/VP for up to 6 months pending Sec 81 inquiry or Sec 36 action.",
+    "summary_ta": "பணியாளர் மற்றும் தலைவர் இடைநீக்கம்: நிதி கையாடல் புகாரில் ஊழியரை பதிவாளர் இடைநீக்கம் செய்யலாம்; தலைவர்/துணைத்தலைவரை 6 மாதங்கள் வரை இடைநீக்கம் செய்யலாம்.",
+    "keywords": [
+      "இடைநீக்கம்",
+      "தலைவர் இடைநீக்கம்",
+      "suspension",
+      "president suspension"
+    ]
+  },
+  {
+    "chunk_id": "sec_77_70",
+    "section": "77",
+    "title": "Removal of paid officer or servant of society",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "77. Removal of paid officer or servant.__ Removal of employees convicted of moral turpitude or by direction of Registrar; reinstatement on acquittal.",
+    "summary_ta": "பணியாளரை பணியிலிருந்து நீக்குதல்: குற்றவியல் தண்டனை பெற்ற ஊழியரை பதிவாளர் உத்தரவின் பேரில் பணிநீக்கம் செய்தல்.",
+    "keywords": [
+      "பணிநீக்கம்",
+      "removal of employee"
+    ]
+  },
+  {
+    "chunk_id": "sec_78_71",
+    "section": "78",
+    "title": "Provident Fund",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "78. Provident Fund.__ Societies establish PF invested in financing bank; immune from court attachment or business claims.",
+    "summary_ta": "வருங்கால வைப்பு நிதி (Provident Fund): ஊழியர்களுக்கான PF மத்திய வங்கியில் வைக்கப்பட வேண்டும்; ஜப்தி செய்ய முடியாது.",
+    "keywords": [
+      "வருங்கால வைப்பு நிதி",
+      "provident fund"
+    ]
+  },
+  {
+    "chunk_id": "sec_79_72",
+    "section": "79",
+    "title": "Gratuity Fund",
+    "chapter": "PAID OFFICERS AND SERVANTS OF SOCIETY",
+    "text": "79. Gratuity Fund.__ Society establishes Gratuity Fund invested in financing bank for employee retirement benefits; immune from attachment.",
+    "summary_ta": "பணிக்கொடை நிதி (Gratuity Fund): ஊழியர்களின் பணிக்கொடை நிதி மத்திய வங்கியில் பராமரிக்கப்படுதல்.",
+    "keywords": [
+      "பணிக்கொடை",
+      "gratuity fund"
+    ]
+  },
+  {
+    "chunk_id": "sec_80_73",
     "section": "80",
-    "subSection": "80(1)-(3)",
-    "title": "Statutory Annual Audit and 9 Months Deadline (ஆண்டு கணக்கு தணிக்கை மற்றும் 9 மாத காலக்கெடு)",
-    "chapter": "Chapter IX: Audit, Inquiry & Surcharge",
-    "topics": [
-      "audit",
-      "director of cooperative audit",
-      "auditor panel",
-      "9 months deadline",
-      "accounts inspection",
+    "title": "Audit (Annual Statutory Audit and Timelines)",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "80. Audit.__ (1) Annual accounts audited by Government auditors or approved audit panel. Financial statements within 3 months; audit completed within 6 months from close of financial year.\n (2) Free access to books, cash, and securities.\n (7) Defects must be rectified within 3 months.",
+    "summary_ta": "ஆண்டு தணிக்கை (Audit): நிதியாண்டு முடிந்த 3 மாதங்களில் கணக்குகள் தயார் செய்யப்பட்டு, 6 மாதங்களுக்குள் தணிக்கை முடிக்கப்பட வேண்டும். குறைகளை 3 மாதங்களில் களைய வேண்டும்.",
+    "keywords": [
       "தணிக்கை",
-      "ஆண்டு தணிக்கை",
-      "9 மாத காலக்கெடு",
-      "தணிக்கை அறிக்கை",
-      "கணக்கு ஆய்வு",
-      "thanikkai"
-    ],
-    "text": "80. Audit: Every society must have accounts audited annually by an auditor from the Director of Cooperative Audit panel. The audit report must be completed within nine months from the close of the financial year.",
-    "summary_en": "Annual statutory audit must be completed by an approved auditor within 9 months of financial year close.",
-    "summary_ta": "ஒவ்வொரு சங்கமும் ஆண்டுதோறும் தணிக்கை செய்யப்பட வேண்டும்; நிதியாண்டு முடிந்த 9 மாதங்களுக்குள் தணிக்கை அறிக்கை சமர்ப்பிக்கப்பட வேண்டும்."
+      "6 மாதங்கள்",
+      "audit",
+      "financial statements"
+    ]
   },
   {
-    "id": "sec_81_statutory_inquiry",
+    "chunk_id": "sec_81_74",
     "section": "81",
-    "subSection": "81(1)-(3)",
-    "title": "Inquiry by Registrar into Society Affairs (பதிவாளரின் சட்டப்பூர்வ விசாரணை அதிகாரம்)",
-    "chapter": "Chapter IX: Audit, Inquiry & Surcharge",
-    "topics": [
-      "inquiry",
-      "registrar inquiry",
-      "one third members application",
-      "3 months period",
-      "financial irregularities",
-      "விசாரணை",
+    "title": "Statutory Inquiry by Registrar",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "81. Inquiry.__ (1) Registrar conducts inquiry into constitution, working, financial state, or misappropriation suo motu or on application of majority board or 1/3rd members or Collector.\n (2) Powers to summon witnesses, seize records (up to 3 months).\n (4) Inquiry completed within 3 months (extendable up to 3 more months).",
+    "summary_ta": "சட்டப்பிரிவு 81 விசாரணை (Statutory Inquiry): நிதி மோசடி, முறைகேடுகள் குறித்து பதிவாளர் உத்தரவிடும் நேரடி விசாரணை; 3 மாதங்களுக்குள் முடிக்கப்பட வேண்டும்.",
+    "keywords": [
+      "81 விசாரணை",
       "பதிவாளர் விசாரணை",
-      "1/3 உறுப்பினர் மனு",
-      "3 மாத காலக்கெடு",
-      "நிதி முறைகேடு",
-      "vicharanai"
-    ],
-    "text": "81. Inquiry: Registrar may on own motion or on application of 1/3rd members/majority of board hold an inquiry into constitution, working, and finances. Inquiry must be completed within 3 months (extendable up to 6 months).",
-    "summary_en": "Registrar can order inquiry on own motion or 1/3rd member petition, completed within 3-6 months.",
-    "summary_ta": "பதிவாளர் தானாகவோ அல்லது 1/3 பங்கு உறுப்பினர்கள் மனு அளித்தாலோ சங்கத்தில் விசாரணை நடத்தலாம்; இது 3 முதல் 6 மாதங்களில் முடிக்கப்பட வேண்டும்."
+      "inquiry",
+      "misappropriation"
+    ]
   },
   {
-    "id": "sec_82_inspection_of_books",
+    "chunk_id": "sec_82_75",
     "section": "82",
-    "subSection": "82(1)-(2)",
-    "title": "Inspection of Books by Registrar (சங்க கணக்கு ஏடுகள் மற்றும் பதிவேடுகள் ஆய்வு)",
-    "chapter": "Chapter IX: Audit, Inquiry & Surcharge",
-    "topics": [
-      "inspection of books",
-      "creditor application",
-      "registrar inspection",
-      "records examination",
-      "ஏடுகள் ஆய்வு",
-      "பதிவேடுகள் ஆய்வு",
-      "கடனீந்தோர் மனு",
-      "கணக்கு புத்தகம்",
-      "aayvu"
-    ],
-    "text": "82. Inspection of books: Registrar may on own motion or on application of a creditor with overdue claim inspect the books, registers, and accounts of the registered society.",
-    "summary_en": "Registrar or creditors with verified claims may inspect the society's books and records.",
-    "summary_ta": "பதிவாளர் தானாகவோ அல்லது கடன் பாக்கி உள்ள நபரின் மனுவின் பேரிலோ சங்கத்தின் கணக்கு ஏடுகளை ஆய்வு செய்யலாம்."
+    "title": "Inspection and investigation",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "82. Inspection and investigation.__ Registrar or authorized officer inspects affairs or investigates allegations. Completed within 3 months (extendable by 3 months max).",
+    "summary_ta": "சட்டப்பிரிவு 82 ஆய்வு மற்றும் புலனாய்வு (Inspection and Investigation).",
+    "keywords": [
+      "82 ஆய்வு",
+      "inspection",
+      "investigation"
+    ]
   },
   {
-    "id": "sec_87_surcharge_misappropriation",
+    "chunk_id": "sec_83_76",
+    "section": "83",
+    "title": "Inspection of books by financing bank",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "83. Inspection of books by financing bank.__ Financing bank has statutory right to inspect books of indebted societies at least once a year.",
+    "summary_ta": "மத்திய வங்கி புத்தகங்களை ஆய்வு செய்யும் அதிகாரம்.",
+    "keywords": [
+      "வங்கி ஆய்வு",
+      "inspection of books"
+    ]
+  },
+  {
+    "chunk_id": "sec_84_77",
+    "section": "84",
+    "title": "Maintenance of accounts and books by registered society",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "84. Maintenance of accounts, and books.__ Principal paid officer (Secretary/CEO) or President personally responsible for keeping correct, up-to-date books.\n 84-A. Annual Returns filed to Registrar within 6 months of co-operative year.",
+    "summary_ta": "கணக்குகள் மற்றும் புத்தகங்களை பராமரிக்கும் பொறுப்பு: முதன்மை நிர்வாக அதிகாரி (செயலாளர்) மற்றும் தலைவர் முழு பொறுப்பாவர்.",
+    "keywords": [
+      "புத்தகங்கள் பராமரிப்பு",
+      "செயலாளர் பொறுப்பு",
+      "maintenance of accounts"
+    ]
+  },
+  {
+    "chunk_id": "sec_87_78",
     "section": "87",
-    "subSection": "87(1)-(2)",
-    "title": "Surcharge for Misappropriation and Loss Recovery (முறைகேடு, நிதி இழப்பீடு மற்றும் சர்சார்ஜ் உத்தரவு)",
-    "chapter": "Chapter IX: Audit, Inquiry & Surcharge",
-    "topics": [
+    "title": "Surcharge proceedings (Recovery of Misappropriated Funds)",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "87. Surcharge.__ (1) When audit/inquiry/inspection discloses misappropriation, breach of trust, or gross negligence causing deficit, Registrar frames charges and orders repayment with interest.\n (2) Surcharge action commenced within 7 years of detection and completed within 3 months (extendable by 3 months max). Recovered as arrears of land revenue.",
+    "summary_ta": "சட்டப்பிரிவு 87 சர்சார்ஜ் நடவடிக்கை (Surcharge): இழப்பு மற்றும் நிதி கையாடல் செய்தவர்களிடம் இருந்து வட்டியுடன் இழப்பீடு வசூலிக்கும் உத்தரவு; 7 ஆண்டுகளுக்குள் தொடங்கப்பட வேண்டும்.",
+    "keywords": [
+      "87 சர்சார்ஜ்",
+      "இழப்பீடு வசூல்",
       "surcharge",
-      "misappropriation",
-      "breach of trust",
-      "negligence",
-      "loss recovery",
-      "officer liability",
-      "சர்சார்ஜ்",
-      "முறைகேடு",
-      "நிதி இழப்பு மீட்பு",
-      "ஊழல்",
-      "நம்பிக்கை துரோகம்",
-      "பணம் மீட்பு",
-      "surcharge"
-    ],
-    "text": "87. Surcharge: If in audit, inquiry, or inspection it appears any officer/servant has misappropriated, fraudulently retained, or caused deficiency to funds by breach of trust or willful negligence, Registrar orders recovery by surcharge.",
-    "summary_en": "Registrar orders surcharge to recover misappropriated funds or losses caused by negligence/breach of trust.",
-    "summary_ta": "தணிக்கை அல்லது விசாரணையில் நிதி முறைகேடு, ஊழல் அல்லது அலட்சியத்தால் இழப்பு ஏற்பட்டது கண்டறியப்பட்டால், பதிவாளர் சம்பந்தப்பட்டவரிடமிருந்து சர்சார்ஜ் மூலம் பணத்தை வசூலிப்பார்."
+      "recovery",
+      "7 years"
+    ]
   },
   {
-    "id": "sec_88_supersession_board",
+    "chunk_id": "sec_88_79",
     "section": "88",
-    "subSection": "88(1)",
-    "title": "Supersession of Board and Administrator Appointment (நிர்வாகக்குழு கலைப்பு மற்றும் தனி அலுவலர் நியமனம்)",
-    "chapter": "Chapter IX: Audit, Inquiry & Surcharge",
-    "topics": [
-      "supersession",
-      "board dismissal",
-      "administrator appointment",
-      "special officer",
-      "persistent default",
+    "title": "Supersession of board and appointment of Administrator",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "88. Supersession of board.__ Where board is in persistent default, negligence, or acts prejudicial to society, Registrar supersedes board and appoints Administrator for up to 6 months (1 year for cooperative banks) to conduct fresh elections.",
+    "summary_ta": "நிர்வாகக்குழு கலைப்பு (Supersession): தொடர் குறைபாடுகள் உள்ள சங்க நிர்வாகக்குழுவை கலைத்து 6 மாதங்களுக்கு தனி அலுவலர்/நிர்வாகி நியமனம்.",
+    "keywords": [
       "நிர்வாகக்குழு கலைப்பு",
       "தனி அலுவலர்",
+      "supersession",
+      "administrator"
+    ]
+  },
+  {
+    "chunk_id": "sec_89_80",
+    "section": "89",
+    "title": "Appointment of administrator in certain circumstances",
+    "chapter": "AUDIT, INQUIRY, INSPECTION AND SURCHARGE",
+    "text": "89. Appointment of administrator.__ Where elections could not be held or new board fails to assume office, Registrar appoints Administrator for up to 6 months (extendable up to 1 year max).",
+    "summary_ta": "தேர்தல் நடைபெறாத நிலையில் நிர்வாகி நியமனம்.",
+    "keywords": [
       "நிர்வாகி நியமனம்",
-      "செயலிழப்பு",
-      "thani aluvalar"
-    ],
-    "text": "88. Supersession: If the board is in persistent default or negligent, the Registrar may supersede the board after notice and appoint an Administrator or Special Officer to manage affairs.",
-    "summary_en": "Registrar can supersede defaulting boards and appoint a Special Officer/Administrator.",
-    "summary_ta": "தொடர் முறைகேடு அல்லது இயங்காத நிர்வாகக்குழுவை கலைத்துவிட்டு பதிவாளர் தனி அலுவலர்/நிர்வாகியை நியமிக்கலாம்."
+      "administrator"
+    ]
   },
   {
-    "id": "sec_90_disputes_arbitration",
+    "chunk_id": "sec_90_81",
     "section": "90",
-    "subSection": "90(1)-(2)",
-    "title": "Settlement of Disputes by Registrar (சங்க தகராறுகள் மற்றும் பதிவாளரின் மத்தியஸ்த தீர்ப்பு)",
-    "chapter": "Chapter X: Settlement of Disputes",
-    "topics": [
+    "title": "Disputes and Arbitration",
+    "chapter": "SETTLEMENT OF DISPUTES",
+    "text": "90. Disputes.__ (1) Disputes concerning constitution, board, management, debts, or business referred to Registrar for arbitration.\n (4) Registrar decides whether dispute falls under Section 90.\n (9) Limitation period: 6 years for general disputes; 2 months for election disputes. Civil court jurisdiction barred.",
+    "summary_ta": "சட்டப்பிரிவு 90 தாவா மற்றும் நடுவர் தீர்ப்பு (Disputes & Arbitration): சங்க விவகாரங்கள், கடன் தகராறுகள் பதிவாளரின் நடுவர் தீர்ப்புக்கு அனுப்பப்படுதல்; காலவரம்பு 6 ஆண்டுகள்.",
+    "keywords": [
+      "90 தாவா",
+      "நடுவர் தீர்ப்பு",
+      "தகராறு",
       "disputes",
-      "arbitration",
-      "civil court barred",
-      "member society conflict",
-      "registrar decision",
-      "தகராறுகள்",
-      "மத்தியஸ்தம்",
-      "நீதிமன்ற தடை",
-      "பதிவாளர் தீர்ப்பு",
-      "சங்க பிரச்சனை",
-      "thagararu"
-    ],
-    "text": "90. Disputes: Any dispute touching the constitution, management or business between members, board, or employees shall be referred exclusively to the Registrar. Civil courts have no jurisdiction.",
-    "summary_en": "All internal disputes must be referred to the Registrar; civil courts cannot entertain them.",
-    "summary_ta": "சங்க விவகாரங்கள், உறுப்பினர்கள் அல்லது நிர்வாகிகளுக்கு இடையேயான தகராறுகள் பதிவாளரிடமே முறையிடப்பட வேண்டும்; சிவில் நீதிமன்றத்திற்கு இதில் அதிகாரமில்லை."
+      "arbitration"
+    ]
   },
   {
-    "id": "sec_137_winding_up",
+    "chunk_id": "sec_91_82",
+    "section": "91",
+    "title": "Insured Co-operative Banks and RBI Powers",
+    "chapter": "INSURED CO-OPERATIVE BANKS",
+    "text": "91. Insured co-operative banks.__ Winding-up, supersession, or amalgamation of insured cooperative banks requires prior sanction or requisition of Reserve Bank of India (RBI).",
+    "summary_ta": "காப்பீடு செய்யப்பட்ட கூட்டுறவு வங்கிகள் மற்றும் ரிசர்வ் வங்கியின் (RBI) அதிகாரங்கள்.",
+    "keywords": [
+      "கூட்டுறவு வங்கி",
+      "ரிசர்வ் வங்கி",
+      "RBI",
+      "insured bank"
+    ]
+  },
+  {
+    "chunk_id": "sec_92_83",
+    "section": "92",
+    "title": "Joint Farming Societies",
+    "chapter": "JOINT FARMING SOCIETIES",
+    "text": "92–102. Joint Farming Societies.__ Members pool land for joint cultivation for at least 5 years under registered agreement. Creation of charge, state assistance, and compensation rules.",
+    "summary_ta": "கூட்டு பண்ணை சங்கங்கள் (Joint Farming Societies): குறைந்தபட்சம் 5 ஆண்டுகள் நிலங்களை ஒன்று சேர்த்து சாகுபடி செய்தல்.",
+    "keywords": [
+      "கூட்டு பண்ணை",
+      "joint farming"
+    ]
+  },
+  {
+    "chunk_id": "sec_103_84",
+    "section": "103",
+    "title": "Lift Irrigation Societies",
+    "chapter": "LIFT IRRIGATION SOCIETIES",
+    "text": "103–110. Lift Irrigation Societies.__ Societies supplying water by lift irrigation for agriculture. Members execute water supply agreement and land mortgage declarations with Sub-Registrar.",
+    "summary_ta": "ஏற்ற நீர்ப்பாசன சங்கங்கள் (Lift Irrigation Societies): விவசாயிகளுக்கு பாசன நீர் விநியோகம் செய்தல் மற்றும் ஒப்பந்தம்.",
+    "keywords": [
+      "நீர்ப்பாசனம்",
+      "lift irrigation"
+    ]
+  },
+  {
+    "chunk_id": "sec_111_85",
+    "section": "111",
+    "title": "Agriculture and Rural Development Banks (CARD & SCARDB)",
+    "chapter": "AGRICULTURE AND RURAL DEVELOPMENT BANKS",
+    "text": "111–136. Agriculture and Rural Development Banks.__ Primary (PCARDB) and State (SCARDB) banks grant long-term agricultural and rural credit. Floating charge debentures under Trustee. Power of distraint of produce (Sec 118) and power of sale without court intervention (Sec 119).",
+    "summary_ta": "வேளாண்மை மற்றும் ஊரக வளர்ச்சி வங்கிகள் (PCARDB & SCARDB): நீண்ட கால வேளாண் கடன் மற்றும் மீட்பு நடவடிக்கைகள்.",
+    "keywords": [
+      "ஊரக வளர்ச்சி வங்கி",
+      "CARD bank",
+      "land development"
+    ]
+  },
+  {
+    "chunk_id": "sec_136-A_86",
+    "section": "136-A",
+    "title": "Short Term Co-operative Credit Structure Societies (STCCS & PACS)",
+    "chapter": "SHORT TERM CO-OPERATIVE CREDIT STRUCTURE",
+    "text": "136-A to 136-D. Special provisions for PACS, DCCB, and Apex Bank.__\n (1) Depositors with ₹5,000+ for 2 years get full voting membership in PACS.\n (3) Government shareholding capped at 25% max.\n (4) No Government nominee in PACS board; max 1 in DCCB/Apex.\n (6) Operational autonomy with freedom of borrowing, investment, and affiliation.\n (15) CRAR & prudential norms by Registrar with NABARD.\n (21) Primary credit societies not permitted to use word 'Bank'.",
+    "summary_ta": "குறுகிய கால கூட்டுறவு கடன் கட்டமைப்பு (STCCS & PACS): ₹5000 வைப்புத்தொகை வைத்திருப்பவருக்கு வாக்குரிமை, அரசு பங்கு அதிகபட்சம் 25%, தன்னாட்சி அதிகாரங்கள்.",
+    "keywords": [
+      "பாக்ஸ்",
+      "PACS",
+      "குறுகிய கால கடன்",
+      "STCCS",
+      "autonomy",
+      "₹5000 deposit"
+    ]
+  },
+  {
+    "chunk_id": "sec_137_87",
     "section": "137",
-    "subSection": "137(1)-(2)",
-    "title": "Winding Up and Dissolution of Society (சங்கத்தை கலைத்தல் மற்றும் மூடுதல் உத்தரவு)",
-    "chapter": "Chapter XIV: Winding Up & Dissolution",
-    "topics": [
-      "winding up",
-      "dissolution",
-      "closure of society",
-      "three fourths members",
-      "non functioning",
-      "சங்க கலைப்பு",
-      "சங்கத்தை மூடுதல்",
-      "3/4 பங்கு உறுப்பினர்கள்",
-      "இயங்காத சங்கம்",
-      "kalaippu"
-    ],
-    "text": "137. Winding up: Registrar may direct winding up after audit/inquiry or on application of 3/4ths members, or if the society has ceased working or fallen below minimum membership.",
-    "summary_en": "Registrar may order winding up after audit/inquiry, on 3/4th member application, or for defunct societies.",
-    "summary_ta": "தணிக்கை/விசாரணை முடிவில், அல்லது 3/4 பங்கு உறுப்பினர்கள் கோரினால், அல்லது இயங்காத சங்கங்களை பதிவாளர் கலைக்க உத்தரவிடலாம்."
+    "title": "Winding-up of registered societies",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "137. Winding-up of registered societies.__ Registrar orders winding up following audit, inquiry (Sec 81), inspection, application by 3/4th members, or membership falling below 25.",
+    "summary_ta": "சங்கங்களை கலைத்தல் (Winding-up): தணிக்கை, விசாரணை அல்லது 3/4 உறுப்பினர்களின் கோரிக்கையின் பேரில் சங்கம் கலைக்கப்படுதல்.",
+    "keywords": [
+      "கலைத்தல்",
+      "winding-up"
+    ]
   },
   {
-    "id": "sec_138_liquidator_appointment",
+    "chunk_id": "sec_138_88",
     "section": "138",
-    "subSection": "138(1)-(2)",
-    "title": "Appointment of Liquidator (கலைப்பாளர் நியமனம் மற்றும் சொத்துக்கள் ஒப்படைப்பு)",
-    "chapter": "Chapter XIV: Winding Up & Dissolution",
-    "topics": [
-      "liquidator",
-      "custody of assets",
-      "powers cease",
-      "winding up officer",
-      "கலைப்பாளர் நியமனம்",
-      "சொத்துக்கள் பொறுப்பு",
-      "நிர்வாக அதிகாரம் ரத்து",
-      "kalaippalar"
-    ],
-    "text": "138. Liquidator: Upon winding up order, Registrar appoints a Liquidator. All assets and claims vest in the Liquidator, and powers of the board cease immediately.",
-    "summary_en": "Liquidator takes custody of all assets upon appointment, suspending board powers.",
-    "summary_ta": "கலைப்பு உத்தரவுக்குப் பின் நியமிக்கப்படும் கலைப்பாளரிடம் சங்க சொத்துக்கள் ஒப்படைக்கப்படும்; நிர்வாகக்குழுவின் அதிகாரம் ரத்தாகும்."
+    "title": "Liquidator and Custody of Assets",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "138. Liquidator.__ Registrar appoints liquidator on winding-up order to take custody of assets, property, and actionable claims.",
+    "summary_ta": "சொத்து கலைப்பாளர் (Liquidator): கலைக்கப்பட்ட சங்கத்தின் சொத்துக்களை தனது பொறுப்பில் எடுத்துக்கொள்ளுதல்.",
+    "keywords": [
+      "கலைப்பாளர்",
+      "liquidator"
+    ]
   },
   {
-    "id": "sec_139_liquidator_powers",
+    "chunk_id": "sec_139_89",
     "section": "139",
-    "subSection": "139(1)",
-    "title": "Powers of Liquidator in Debt Settlement (கலைப்பாளரின் அதிகாரங்கள் மற்றும் கடன் வசூல்)",
-    "chapter": "Chapter XIV: Winding Up & Dissolution",
-    "topics": [
-      "liquidator powers",
-      "debt recovery",
-      "asset sale",
-      "legal proceedings",
-      "claims priority",
+    "title": "Powers of liquidator",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "139. Powers of liquidator.__ Liquidator has powers to realize assets, determine contributions, investigate claims, pay debts according to priority, and compromise calls.",
+    "summary_ta": "கலைப்பாளரின் அதிகாரங்கள் (Powers of Liquidator): சொத்துக்களை விற்று கடன்களை தீர்த்தல்.",
+    "keywords": [
       "கலைப்பாளர் அதிகாரம்",
-      "கடன் வசூல்",
-      "சொத்து விற்பனை",
-      "வழக்கு நடத்துதல்"
-    ],
-    "text": "139. Powers of Liquidator: The Liquidator has power to institute legal proceedings, determine contributions of members, investigate claims, sell assets, and settle debts of the society.",
-    "summary_en": "Liquidator can sell assets, recover debts, investigate claims, and sue or defend on behalf of society.",
-    "summary_ta": "கலைப்பாளர் சொத்துக்களை விற்கவும், கடன் பாக்கிகளை வசூலிக்கவும், கோரிக்கைகளை விசாரித்து கடன் தீர்க்கவும் அதிகாரம் கொண்டுள்ளார்."
+      "powers of liquidator"
+    ]
   },
   {
-    "id": "sec_140_cancellation_registration",
+    "chunk_id": "sec_140_90",
     "section": "140",
-    "subSection": "140(1)-(2)",
-    "title": "Cancellation of Registration and Dissolution (சங்க பதிவு ரத்து மற்றும் முழுமையான கலைப்பு)",
-    "chapter": "Chapter XIV: Winding Up & Dissolution",
-    "topics": [
-      "cancellation of registration",
-      "dissolved corporate body",
-      "final dissolution",
+    "title": "Cancellation of registration",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "140. Cancellation of registration.__ On final winding up, Registrar cancels registration; society ceases corporate existence.",
+    "summary_ta": "பதிவை ரத்து செய்தல் (Cancellation of Registration): சங்கம் முழுமையாக கலைக்கப்பட்ட பின் அதன் சட்டரீதியான பதிவு ரத்து செய்யப்படுதல்.",
+    "keywords": [
       "பதிவு ரத்து",
-      "சங்கம் கலைப்பு",
-      "சட்டப்பூர்வ அந்தஸ்து ரத்து",
-      "pathivu rathu"
-    ],
-    "text": "140. Cancellation of registration: When affairs are completely wound up, Registrar cancels registration. The society stands dissolved and ceases to exist as a corporate body.",
-    "summary_en": "Registration cancellation by Registrar completely dissolves the cooperative society.",
-    "summary_ta": "கலைப்பு நடவடிக்கைகள் முடிந்ததும் பதிவாளர் பதிவை ரத்து செய்வார்; அதன்பின் சங்கம் சட்டப்பூர்வமாக முடிவுக்கு வரும்."
+      "cancellation"
+    ]
   },
   {
-    "id": "sec_143_enforcement_charge",
+    "chunk_id": "sec_141_91",
+    "section": "141",
+    "title": "Bar of legal proceedings in winding up",
+    "chapter": "WINDING-UP AND CANCELLATION",
+    "text": "141. Bar of legal proceedings.__ No civil suit or proceedings against liquidator or society without leave of the Registrar.",
+    "summary_ta": "Bar of legal proceedings in winding up",
+    "keywords": [
+      "Bar of legal proceedings in winding up",
+      "141"
+    ]
+  },
+  {
+    "chunk_id": "sec_143_92",
     "section": "143",
-    "subSection": "143(1)",
-    "title": "Enforcement of Charge by Distraint and Sale (நிலம் மற்றும் பயிர் பிணையத்தை விற்று கடன் வசூலித்தல்)",
-    "chapter": "Chapter XV: Execution of Decrees",
-    "topics": [
-      "enforcement of charge",
-      "distraint and sale",
-      "produce recovery",
-      "land sale for dues",
-      "பிணையம் அமலாக்கம்",
-      "பறிமுதல் மற்றும் விற்பனை",
-      "கடன் வசூல் நடவடிக்கை",
-      "விளைபொருள் பறிமுதல்"
-    ],
-    "text": "143. Enforcement of charge: Dues secured under Section 40 or 41 may be recovered by distraint and sale of produce or property subject to the charge in the prescribed manner.",
-    "summary_en": "PACS dues can be recovered through distraint and public sale of charged crops or mortgaged land.",
-    "summary_ta": "சங்கத்திற்கு பிணையமாக வைக்கப்பட்ட விளைபொருட்கள் அல்லது நிலத்தை பறிமுதல் செய்து விற்று நிலுவை கடனை வசூலிக்கலாம்."
+    "title": "Recovery of sums by attachment and sale of property",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "143. Power of Registrar to recover sums by attachment and sale.__ Registrar executes decrees, arbitration awards, surcharge orders, and liquidation dues by attachment and auction.",
+    "summary_ta": "சொத்துக்களை ஜப்தி மற்றும் ஏலம் மூலம் தொகைகளை வசூலிக்கும் பதிவாளரின் அதிகாரம்.",
+    "keywords": [
+      "ஜப்தி",
+      "ஏலம்",
+      "attachment and sale"
+    ]
   },
   {
-    "id": "sec_152_appeals_60days",
+    "chunk_id": "sec_144_93",
+    "section": "144",
+    "title": "Recovery of debts through charge on produce",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "144. Recovery of debts.__ Recovery of debts by sale of property subject to charge under Section 40 after 15 days' notice.",
+    "summary_ta": "பயிர்கள் மற்றும் சொத்துக்கள் மீதான பற்றுரிமை மூலம் கடன் வசூல்.",
+    "keywords": [
+      "கடன் வசூல்",
+      "recovery of debts"
+    ]
+  },
+  {
+    "chunk_id": "sec_148_94",
+    "section": "148",
+    "title": "Recovery of sums due to Government",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "148. Recovery of sums due to Government.__ Sums due to Government recovered as arrears of land revenue.",
+    "summary_ta": "அரசுக்கு சேர வேண்டிய தொகைகளை நில வருவாய் நிலுவை போல வசூலித்தல்.",
+    "keywords": [
+      "அரசு தொகை வசூல்",
+      "sums due to government"
+    ]
+  },
+  {
+    "chunk_id": "sec_150_95",
+    "section": "150",
+    "title": "Certificate for recovery of sums due from members",
+    "chapter": "EXECUTION OF DECREES, DECISIONS AND ORDERS",
+    "text": "150. Certificate for recovery.__ Registrar issues recovery certificate on society application; certificate is conclusive evidence recoverable as land revenue.",
+    "summary_ta": "உறுப்பினர்களிடம் இருந்து கடன் வசூலிக்க பதிவாளர் வழங்கும் வசூல் சான்றிதழ்.",
+    "keywords": [
+      "வசூல் சான்றிதழ்",
+      "certificate for recovery"
+    ]
+  },
+  {
+    "chunk_id": "sec_151_96",
+    "section": "151",
+    "title": "Co-operative Tribunal",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "151. Co-operative Tribunal.__ Government constitutes Co-operative Tribunals comprising judicial officers (Sub-Judge rank).",
+    "summary_ta": "கூட்டுறவு தீர்ப்பாயம் (Co-operative Tribunal): சார்பு நீதிபதி அந்தஸ்துள்ள அதிகாரியைக் கொண்ட தீர்ப்பாயம்.",
+    "keywords": [
+      "தீர்ப்பாயம்",
+      "tribunal"
+    ]
+  },
+  {
+    "chunk_id": "sec_152_97",
     "section": "152",
-    "subSection": "152(1)-(2)",
-    "title": "Appeals to Cooperative Tribunal within 60 Days (கூட்டுறவு தீர்ப்பாயத்தில் 60 நாட்களுக்குள் மேல்முறையீடு)",
-    "chapter": "Chapter XVI: Appeals, Revision & Review",
-    "topics": [
-      "appeals",
-      "cooperative tribunal",
-      "60 days limit",
-      "order challenge",
+    "title": "Appeals to Tribunal and Registrar",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "152. Appeals.__ Appeals against surcharge (Sec 87), arbitration awards (Sec 90), distraint (Sec 118/119), or attachment (Sec 143/167) lie to Tribunal within 60 days. Appeals on registration, admission, supersession lie to Registrar/Government.",
+    "summary_ta": "மேல்முறையீடுகள் (Appeals): சர்சார்ஜ் (Sec 87), நடுவர் தீர்ப்பு (Sec 90) ஆகியவற்றிற்கு எதிராக தீர்ப்பாயத்தில் 60 நாட்களுக்குள் மேல்முறையீடு செய்தல்.",
+    "keywords": [
       "மேல்முறையீடு",
-      "கூட்டுறவு தீர்ப்பாயம்",
-      "60 நாட்கள் காலக்கெடு",
-      "உத்தரவு எதிர்ப்பு",
-      "melmuraiyeedu"
-    ],
-    "text": "152. Appeals: Any person aggrieved by decisions under Section 9, 11, 25, 36, 87, 90, or 137 may appeal to the Cooperative Tribunal or Government within sixty days from the date of the order.",
-    "summary_en": "Aggrieved persons can appeal orders (surcharge, expulsion, etc.) to the Tribunal within 60 days.",
-    "summary_ta": "சர்சார்ஜ், உறுப்பினர் நீக்கம் போன்ற உத்தரவுகளால் பாதிக்கப்பட்டவர் 60 நாட்களுக்குள் கூட்டுறவு தீர்ப்பாயத்தில் மேல்முறையீடு செய்யலாம்."
+      "60 நாட்கள்",
+      "appeals",
+      "tribunal"
+    ]
   },
   {
-    "id": "sec_153_revision_powers",
+    "chunk_id": "sec_153_98",
     "section": "153",
-    "subSection": "153(1)",
-    "title": "Revision Powers of Registrar (பதிவாளரின் சீராய்வு மற்றும் மறுபரிசீலனை அதிகாரம்)",
-    "chapter": "Chapter XVI: Appeals, Revision & Review",
-    "topics": [
-      "revision",
-      "registrar review",
-      "correctness of order",
-      "suo motu",
+    "title": "Revision powers of Registrar and Government",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "153. Revision.__ Registrar or Government may suo motu or on application within 90 days examine legality/propriety of orders and revise.",
+    "summary_ta": "சீராய்வு அதிகாரம் (Revision): பதிவாளர் அல்லது அரசின் மறுஆய்வு அதிகாரம் (90 நாட்களுக்குள்).",
+    "keywords": [
       "சீராய்வு",
+      "revision",
+      "90 days"
+    ]
+  },
+  {
+    "chunk_id": "sec_154_99",
+    "section": "154",
+    "title": "Review of orders",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "154. Review.__ Parties may apply for review of appeal/revision orders upon discovery of new evidence or error on face of record.",
+    "summary_ta": "மறுபரிசீலனை (Review): புதிய சான்றுகள் கிடைக்கும் போது உத்தரவை மறுபரிசீலனை செய்தல்.",
+    "keywords": [
       "மறுபரிசீலனை",
-      "பதிவாளர் மறுஆய்வு",
-      "தன்னிச்சையான அதிகாரம்",
-      "seerayvu"
-    ],
-    "text": "153. Revision: Registrar may of own motion or on application examine records of any proceeding to satisfy legality, regularity or propriety, and modify, reverse, or annul orders.",
-    "summary_en": "Registrar holds revision powers to check legality and modify or annul lower orders.",
-    "summary_ta": "கீழ்மட்ட உத்தரவுகளின் சட்ட ஒழுங்கை ஆய்வு செய்து அவற்றை திருத்தவோ ரத்து செய்யவோ பதிவாளருக்கு சீராய்வு அதிகாரம் உண்டு."
+      "review"
+    ]
   },
   {
-    "id": "sec_158_penalties_punishment",
-    "section": "158",
-    "subSection": "158(1)",
-    "title": "Penalties for Offences up to 3 Years (குற்றங்களுக்கான தண்டனை 3 ஆண்டுகள் வரை சிறை)",
-    "chapter": "Chapter XVII: Offences & Penalties",
-    "topics": [
-      "penalties",
-      "offences",
-      "3 years imprisonment",
-      "fine 10000",
-      "falsification of books",
+    "chunk_id": "sec_156_100",
+    "section": "156",
+    "title": "Bar of jurisdiction of Civil Courts",
+    "chapter": "APPEALS, REVISION AND REVIEW",
+    "text": "156. Bar of jurisdiction of Civil Courts.__ Civil courts have no jurisdiction over orders, awards, or directions issued under this Act; no injunctions granted.",
+    "summary_ta": "சிவில் நீதிமன்றங்களுக்கு தடை: கூட்டுறவு சட்ட உத்தரவுகளுக்கு எதிராக சிவில் நீதிமன்றங்கள் தலையிடவோ தடை உத்தரவு பிறப்பிக்கவோ முடியாது.",
+    "keywords": [
+      "நீதிமன்ற தடை",
+      "bar of civil courts"
+    ]
+  },
+  {
+    "chunk_id": "sec_157_101",
+    "section": "157",
+    "title": "Punishment for false information or disobeying orders",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "157. Punishment for false information.__ Making false returns or withholding audit info punishable with up to 6 months imprisonment and ₹5,000 fine.",
+    "summary_ta": "தவறான தகவல் தருதல் அல்லது உத்தரவை மீறுவதற்கு தண்டனை: 6 மாத சிறை அல்லது ₹5000 அபராதம்.",
+    "keywords": [
       "தண்டனை",
-      "3 ஆண்டுகள் சிறை",
       "அபராதம்",
-      "கணக்கு ஏடுகள் அழித்தல்",
-      "பொய் அறிக்கை"
-    ],
-    "text": "158. Penalties: Anyone guilty of falsifying books, false returns, or failure to remit salary deductions is punishable with imprisonment up to three years, fine up to Rs. 10,000, or both.",
-    "summary_en": "Offences like falsifying books or withholding salary deductions carry up to 3 years jail and fine.",
-    "summary_ta": "கணக்கு ஏடுகளை அழிப்பது, பொய் தகவல் தருவது அல்லது பிடித்தம் செய்த சம்பளத்தை கட்டாத குற்றங்களுக்கு 3 ஆண்டுகள் வரை சிறை தண்டனை விதிக்கப்படும்."
+      "offences",
+      "false information"
+    ]
   },
   {
-    "id": "sec_164_civil_court_bar",
+    "chunk_id": "sec_158_102",
+    "section": "158",
+    "title": "Punishment for contravention of statutory charges",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "158. Punishment for contravention of charges.__ Unauthorized sale of property charged under Section 40, 41, 95, 105, 124 punishable with up to 6 months imprisonment and ₹5,000 fine.",
+    "summary_ta": "சங்க பற்றுரிமையில் உள்ள நிலம்/பயிர்களை அனுமதி இன்றி விற்றால் 6 மாத சிறை அல்லது ₹5000 அபராதம்.",
+    "keywords": [
+      "பற்றுரிமை மீறல்",
+      "contravention of charges"
+    ]
+  },
+  {
+    "chunk_id": "sec_159_103",
+    "section": "159",
+    "title": "Prohibition of unauthorized use of the word 'co-operative'",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "159. Prohibition of the word 'co-operative'.__ Unauthorized use of 'co-operative' or regional equivalent in business title is punishable with ₹5,000 fine (plus ₹500/day continuing).",
+    "summary_ta": "அனுமதியின்றி ‘கூட்டுறவு’ என்ற பெயரை பயன்படுத்தினால் ₹5000 அபராதம்.",
+    "keywords": [
+      "கூட்டுறவு பெயர் தடை",
+      "use of cooperative"
+    ]
+  },
+  {
+    "chunk_id": "sec_161_104",
+    "section": "161",
+    "title": "Punishment for misuse or non-handover of records and property",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "161. Punishment for misuse of property/records.__ Failure to handover records/funds to authorized officer/administrator punishable with up to 1 year imprisonment and ₹10,000 fine.",
+    "summary_ta": "சங்க பதிவேடுகள், ஆவணங்கள் அல்லது பணத்தை ஒப்படைக்க மறுத்தால் 1 ஆண்டு சிறை அல்லது ₹10,000 அபராதம்.",
+    "keywords": [
+      "பதிவேடு ஒப்படைக்க மறுத்தல்",
+      "misuse of records"
+    ]
+  },
+  {
+    "chunk_id": "sec_162_105",
+    "section": "162",
+    "title": "Punishment for corrupt election practices",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "162. Corrupt practices in elections.__ Defacing nomination/ballot papers, bribery, or interfering with ballot boxes punishable with up to 1 year imprisonment and ₹10,000 fine.",
+    "summary_ta": "கூட்டுறவு தேர்தலில் முறைகேடுகள், வாக்குச்சீட்டு சேதப்படுத்துதல் அல்லது லஞ்சம் கொடுத்தால் 1 ஆண்டு சிறை அல்லது ₹10,000 அபராதம்.",
+    "keywords": [
+      "தேர்தல் முறைகேடு",
+      "லஞ்சம்",
+      "corrupt election practice"
+    ]
+  },
+  {
+    "chunk_id": "sec_164_106",
     "section": "164",
-    "subSection": "164(1)",
-    "title": "Bar of Jurisdiction of Civil Courts (சிவில் நீதிமன்றங்களின் தலையீட்டிற்கு முழுமையான தடை)",
-    "chapter": "Chapter XVIII: Miscellaneous",
-    "topics": [
-      "civil court bar",
-      "jurisdiction barred",
-      "exclusive registrar authority",
-      "சிவில் நீதிமன்ற தடை",
-      "நீதிமன்ற வரம்பு இல்லை",
-      "பதிவாளர் தனி அதிகாரம்",
-      "நீதிமன்றம் செல்லலாமா"
-    ],
-    "text": "164. Bar of civil courts: No civil court has jurisdiction over registration, board removal, disputes under Section 90, or matters empowered to the Registrar, Tribunal, or Liquidator.",
-    "summary_en": "Civil courts are explicitly barred from hearing cooperative disputes, elections, or registration matters.",
-    "summary_ta": "கூட்டுறவு தகராறுகள், சங்க பதிவு, நிர்வாக நீக்கம் போன்ற விவகாரங்களில் சிவில் நீதிமன்றங்கள் தலையிட முற்றிலும் தடை விதிக்கப்பட்டுள்ளது."
+    "title": "Cognizance of offences",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "164. Cognizance of offences.__ Offences non-cognizable; tried by Metropolitan/Judicial Magistrate (1st class) with previous sanction of Registrar.",
+    "summary_ta": "குற்றங்களை விசாரிக்கும் முறை: பதிவாளரின் முன் அனுமதியுடன் மட்டுமே குற்றவியல் நடவடிக்கை எடுக்க முடியும்.",
+    "keywords": [
+      "குற்ற விசாரணை",
+      "cognizance of offences"
+    ]
+  },
+  {
+    "chunk_id": "sec_165_107",
+    "section": "165",
+    "title": "Magisterial search and delivery of records and property",
+    "chapter": "OFFENCES AND PENALTIES",
+    "text": "165. Delivery of possession of records and properties.__ Magistrate issues police search warrant to seize and handover withheld society records and properties.",
+    "summary_ta": "காவல்துறை மூலம் தேடுதல் மற்றும் ஆவணங்களை கைப்பற்றி ஒப்படைக்க மாஜிஸ்திரேட் அதிகாரம்.",
+    "keywords": [
+      "தேடுதல் ஆணை",
+      "search warrant"
+    ]
+  },
+  {
+    "chunk_id": "sec_180_108",
+    "section": "180",
+    "title": "Rule-making powers of the State Government",
+    "chapter": "MISCELLANEOUS",
+    "text": "180. Power to make rules.__ Government makes statutory rules for registration, elections, cadre, accounts, audit, appeals, and overall administration under the Act.",
+    "summary_ta": "அரசின் விதி இயற்றும் அதிகாரம் (Rule Making Powers).",
+    "keywords": [
+      "விதிகள்",
+      "rules"
+    ]
+  },
+  {
+    "chunk_id": "sec_181_109",
+    "section": "181",
+    "title": "Power of Registrar to give statutory directions in public interest",
+    "chapter": "MISCELLANEOUS",
+    "text": "181. Power of Registrar to give directions.__ Registrar issues binding directions to registered societies in public interest or to prevent detrimental management.",
+    "summary_ta": "பொதுநலன் கருதி பதிவாளர் வழங்கும் சட்டபூர்வ வழிகாட்டுதல்கள் (Statutory Directions).",
+    "keywords": [
+      "வழிகாட்டுதல்",
+      "directions"
+    ]
+  },
+  {
+    "chunk_id": "sec_Schedule_110",
+    "section": "Schedule",
+    "title": "Scheduled Co-operative Societies (Part A Apex & Part B Central/Specialized)",
+    "chapter": "SCHEDULE",
+    "text": "Schedule (Sections 2(25) & 179): Part A Apex Societies (TNSC Bank, SCARDB, TNCU, TNCMPF/Aavin, Co-optex, TANFED, INDCOSERVE, INDCO, Central Co-op Banks, etc.); Part B: PACMS, CARD Banks, Urban Banks, Co-op Sugar Mills, TEASERVE.",
+    "summary_ta": "பட்டியலிடப்பட்ட கூட்டுறவு சங்கங்கள்: தலைமை வங்கிகள், மத்திய வங்கிகள், ஆவின், கோ-ஆப்டெக்ஸ், டான்பெட், இண்ட்கோசர்வ்.",
+    "keywords": [
+      "பட்டியலிடப்பட்ட சங்கங்கள்",
+      "Apex",
+      "scheduled societies"
+    ]
   }
 ];
